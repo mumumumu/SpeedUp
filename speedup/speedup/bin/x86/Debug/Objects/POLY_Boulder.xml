@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.PolygonObject">
+    <m_density>1</m_density>
+    <m_mass>253.423737</m_mass>
+    <m_friction>0</m_friction>
+    <m_restitution>0.7</m_restitution>
+    <m_rotation>-0.240010753</m_rotation>
+    <m_damping>0</m_damping>
+    <m_radius>0</m_radius>
+    <m_linear_velocity>-0.023699712 -0.8344932</m_linear_velocity>
+    <m_angular_velocity>-0.02064525</m_angular_velocity>
+    <m_position>-8.571668 161.5826</m_position>
+    <m_name>POLY_Boulder</m_name>
+    <m_is_dead>false</m_is_dead>
+    <m_is_added>true</m_is_added>
+    <m_buffered_position>-8.571668 161.5826</m_buffered_position>
+    <m_buffered_angle>-0.240010753</m_buffered_angle>
+    <m_is_throwable>false</m_is_throwable>
+    <m_is_destructible>false</m_is_destructible>
+    <m_destroy_threshold>0</m_destroy_threshold>
+    <m_last_destroy_frame>false</m_last_destroy_frame>
+    <m_texture_name>Art/speedup-Floor</m_texture_name>
+    <m_texture_name_helper>Art/speedup-Floor</m_texture_name_helper>
+    <m_disabled>false</m_disabled>
+    <m_width_height>0 0</m_width_height>
+    <m_tint>FFFFFAF0</m_tint>
+    <m_points>10 3.05175781E-05 9.87688351 1.56437683 9.510566 3.0901947 8.910066 4.53993225 8.090171 5.877884 7.071069 7.0710907 5.87785339 8.090195 4.5399065 8.910095 3.09017086 9.51059 1.56434631 9.876907 9.536743E-07 10.0000305 -1.56434345 9.876907 -3.090169 9.51059 -4.53990459 8.910095 -5.87785244 8.090195 -7.071067 7.071106 -8.090171 5.877884 -8.910064 4.53993225 -9.510566 3.0901947 -9.87688351 1.56437683 -9.999999 3.05175781E-05 -9.87688351 -1.5643158 -9.510566 -3.09013367 -8.910066 -4.539871 -8.090171 -5.877823 -7.071069 -7.07102966 -5.87785244 -8.090134 -4.53990459 -8.910034 -3.09017086 -9.510529 -1.56434536 -9.876846 0 -9.99996948 1.56434441 -9.876846 3.09017 -9.510529 4.53990459 -8.910034 5.87785244 -8.090134 7.071068 -7.07102966 8.09017 -5.877823 8.910066 -4.539871 9.510566 -3.09013367 9.87688351 -1.5643158</m_points>
+    <m_verts>9 2.746582E-05 8.88919449 1.40793908 8.559509 2.78117514 8.019059 4.085939 7.28115368 5.29009533 6.3639617 6.36398125 5.290068 7.281175 4.08591557 8.019086 2.78115368 8.55953 1.40791166 8.889216 8.58306862E-07 9.000028 -1.407909 8.889216 -2.781152 8.55953 -4.085914 8.019086 -5.290067 7.281175 -6.36396 6.363995 -7.28115368 5.29009533 -8.019057 4.085939 -8.559509 2.78117514 -8.88919449 1.40793908 -8.999999 2.746582E-05 -8.88919449 -1.40788412 -8.559509 -2.7811203 -8.019059 -4.085884 -7.28115368 -5.29004049 -6.3639617 -6.36392641 -5.290067 -7.2811203 -4.085914 -8.019031 -2.78115368 -8.559476 -1.40791082 -8.889161 0 -8.999972 1.40790987 -8.889161 2.78115273 -8.559476 4.085914 -8.019031 5.290067 -7.2811203 6.36396074 -6.36392641 7.28115273 -5.29004049 8.019059 -4.085884 8.559509 -2.7811203 8.88919449 -1.40788412</m_verts>
+    <m_animation_frame>0</m_animation_frame>
+    <m_active>false</m_active>
+    <m_scale_x>0.9</m_scale_x>
+    <m_scale_y>0.9</m_scale_y>
+    <m_vertices>
+      <Item>
+        <Position>-8.559509 2.78117514 0</Position>
+        <TextureCoordinate>-0.335889578 0.7715992</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.88919449 1.40793908 0</Position>
+        <TextureCoordinate>-0.368085384 0.6374941</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.999999 2.746582E-05 0</Position>
+        <TextureCoordinate>-0.378906131 0.5000027</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.88919449 -1.40788412 0</Position>
+        <TextureCoordinate>-0.368085384 0.362511337</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.019057 4.085939 0</Position>
+        <TextureCoordinate>-0.283111036 0.899017453</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.559509 2.78117514 0</Position>
+        <TextureCoordinate>-0.335889578 0.7715992</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.559509 2.78117514 0</Position>
+        <TextureCoordinate>-0.335889578 0.7715992</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.999999 2.746582E-05 0</Position>
+        <TextureCoordinate>-0.378906131 0.5000027</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.88919449 -1.40788412 0</Position>
+        <TextureCoordinate>-0.368085384 0.362511337</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.88919449 -1.40788412 0</Position>
+        <TextureCoordinate>-0.368085384 0.362511337</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.559509 -2.7811203 0</Position>
+        <TextureCoordinate>-0.335889578 0.228406221</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-7.28115368 5.29009533 0</Position>
+        <TextureCoordinate>-0.211050153 1.01661086</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-7.28115368 5.29009533 0</Position>
+        <TextureCoordinate>-0.211050153 1.01661086</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.019057 4.085939 0</Position>
+        <TextureCoordinate>-0.283111036 0.899017453</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.88919449 -1.40788412 0</Position>
+        <TextureCoordinate>-0.368085384 0.362511337</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.559509 -2.7811203 0</Position>
+        <TextureCoordinate>-0.335889578 0.228406221</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.019059 -4.085884 0</Position>
+        <TextureCoordinate>-0.283111274 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-6.36396 6.363995 0</Position>
+        <TextureCoordinate>-0.121480465 1.12148392</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-6.36396 6.363995 0</Position>
+        <TextureCoordinate>-0.121480465 1.12148392</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-7.28115368 5.29009533 0</Position>
+        <TextureCoordinate>-0.211050153 1.01661086</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.559509 -2.7811203 0</Position>
+        <TextureCoordinate>-0.335889578 0.228406221</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.019059 -4.085884 0</Position>
+        <TextureCoordinate>-0.283111274 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-7.28115368 -5.29004049 0</Position>
+        <TextureCoordinate>-0.211050153 -0.0166054964</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-5.290067 7.281175 0</Position>
+        <TextureCoordinate>-0.016608119 1.21105218</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-5.290067 7.281175 0</Position>
+        <TextureCoordinate>-0.016608119 1.21105218</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-6.36396 6.363995 0</Position>
+        <TextureCoordinate>-0.121480465 1.12148392</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-8.019059 -4.085884 0</Position>
+        <TextureCoordinate>-0.283111274 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-7.28115368 -5.29004049 0</Position>
+        <TextureCoordinate>-0.211050153 -0.0166054964</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-6.3639617 -6.36392641 0</Position>
+        <TextureCoordinate>-0.121480644 -0.121477187</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-4.085914 8.019086 0</Position>
+        <TextureCoordinate>0.100984961 1.28311384</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-4.085914 8.019086 0</Position>
+        <TextureCoordinate>0.100984961 1.28311384</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-5.290067 7.281175 0</Position>
+        <TextureCoordinate>-0.016608119 1.21105218</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-7.28115368 -5.29004049 0</Position>
+        <TextureCoordinate>-0.211050153 -0.0166054964</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-6.3639617 -6.36392641 0</Position>
+        <TextureCoordinate>-0.121480644 -0.121477187</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-5.290067 -7.2811203 0</Position>
+        <TextureCoordinate>-0.016608119 -0.211046934</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-2.781152 8.55953 0</Position>
+        <TextureCoordinate>0.228403121 1.3358916</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-2.781152 8.55953 0</Position>
+        <TextureCoordinate>0.228403121 1.3358916</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-4.085914 8.019086 0</Position>
+        <TextureCoordinate>0.100984961 1.28311384</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-6.3639617 -6.36392641 0</Position>
+        <TextureCoordinate>-0.121480644 -0.121477187</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-5.290067 -7.2811203 0</Position>
+        <TextureCoordinate>-0.016608119 -0.211046934</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-4.085914 -8.019031 0</Position>
+        <TextureCoordinate>0.100984961 -0.283108473</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-1.407909 8.889216 0</Position>
+        <TextureCoordinate>0.3625089 1.36808753</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-1.407909 8.889216 0</Position>
+        <TextureCoordinate>0.3625089 1.36808753</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-2.781152 8.55953 0</Position>
+        <TextureCoordinate>0.228403121 1.3358916</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-5.290067 -7.2811203 0</Position>
+        <TextureCoordinate>-0.016608119 -0.211046934</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-4.085914 -8.019031 0</Position>
+        <TextureCoordinate>0.100984961 -0.283108473</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-2.78115368 -8.559476 0</Position>
+        <TextureCoordinate>0.228402972 -0.3358863</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.58306862E-07 9.000028 0</Position>
+        <TextureCoordinate>0.50000006 1.37890887</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.58306862E-07 9.000028 0</Position>
+        <TextureCoordinate>0.50000006 1.37890887</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-1.407909 8.889216 0</Position>
+        <TextureCoordinate>0.3625089 1.36808753</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-4.085914 -8.019031 0</Position>
+        <TextureCoordinate>0.100984961 -0.283108473</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-2.78115368 -8.559476 0</Position>
+        <TextureCoordinate>0.228402972 -0.3358863</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-1.40791082 -8.889161 0</Position>
+        <TextureCoordinate>0.3625087 -0.368082166</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>1.40791166 8.889216 0</Position>
+        <TextureCoordinate>0.637491345 1.36808753</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>1.40791166 8.889216 0</Position>
+        <TextureCoordinate>0.637491345 1.36808753</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.58306862E-07 9.000028 0</Position>
+        <TextureCoordinate>0.50000006 1.37890887</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-2.78115368 -8.559476 0</Position>
+        <TextureCoordinate>0.228402972 -0.3358863</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 -4.085884 0</Position>
+        <TextureCoordinate>1.28311133 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.559509 -2.7811203 0</Position>
+        <TextureCoordinate>1.33588958 0.228406221</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.88919449 -1.40788412 0</Position>
+        <TextureCoordinate>1.36808538 0.362511337</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.88919449 -1.40788412 0</Position>
+        <TextureCoordinate>1.36808538 0.362511337</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>9 2.746582E-05 0</Position>
+        <TextureCoordinate>1.37890625 0.5000027</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 -4.085884 0</Position>
+        <TextureCoordinate>1.28311133 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>9 2.746582E-05 0</Position>
+        <TextureCoordinate>1.37890625 0.5000027</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.88919449 1.40793908 0</Position>
+        <TextureCoordinate>1.36808538 0.6374941</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 -4.085884 0</Position>
+        <TextureCoordinate>1.28311133 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.559509 2.78117514 0</Position>
+        <TextureCoordinate>1.33588958 0.7715992</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>7.28115273 -5.29004049 0</Position>
+        <TextureCoordinate>1.21105 -0.0166054964</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 -4.085884 0</Position>
+        <TextureCoordinate>1.28311133 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 -4.085884 0</Position>
+        <TextureCoordinate>1.28311133 0.100987881</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.88919449 1.40793908 0</Position>
+        <TextureCoordinate>1.36808538 0.6374941</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.559509 2.78117514 0</Position>
+        <TextureCoordinate>1.33588958 0.7715992</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.559509 2.78117514 0</Position>
+        <TextureCoordinate>1.33588958 0.7715992</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 4.085939 0</Position>
+        <TextureCoordinate>1.28311133 0.899017453</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>6.36396074 -6.36392641 0</Position>
+        <TextureCoordinate>1.12148046 -0.121477187</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>6.36396074 -6.36392641 0</Position>
+        <TextureCoordinate>1.12148046 -0.121477187</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>7.28115273 -5.29004049 0</Position>
+        <TextureCoordinate>1.21105 -0.0166054964</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.559509 2.78117514 0</Position>
+        <TextureCoordinate>1.33588958 0.7715992</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 4.085939 0</Position>
+        <TextureCoordinate>1.28311133 0.899017453</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>7.28115368 5.29009533 0</Position>
+        <TextureCoordinate>1.21105015 1.01661086</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>5.290067 -7.2811203 0</Position>
+        <TextureCoordinate>1.01660812 -0.211046934</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>5.290067 -7.2811203 0</Position>
+        <TextureCoordinate>1.01660812 -0.211046934</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>6.36396074 -6.36392641 0</Position>
+        <TextureCoordinate>1.12148046 -0.121477187</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>8.019059 4.085939 0</Position>
+        <TextureCoordinate>1.28311133 0.899017453</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>7.28115368 5.29009533 0</Position>
+        <TextureCoordinate>1.21105015 1.01661086</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>6.3639617 6.36398125 0</Position>
+        <TextureCoordinate>1.1214807 1.12148261</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>4.085914 -8.019031 0</Position>
+        <TextureCoordinate>0.899015069 -0.283108473</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>4.085914 -8.019031 0</Position>
+        <TextureCoordinate>0.899015069 -0.283108473</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>5.290067 -7.2811203 0</Position>
+        <TextureCoordinate>1.01660812 -0.211046934</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>7.28115368 5.29009533 0</Position>
+        <TextureCoordinate>1.21105015 1.01661086</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>6.3639617 6.36398125 0</Position>
+        <TextureCoordinate>1.1214807 1.12148261</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>5.290068 7.281175 0</Position>
+        <TextureCoordinate>1.01660824 1.21105218</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>2.78115273 -8.559476 0</Position>
+        <TextureCoordinate>0.7715969 -0.3358863</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>2.78115273 -8.559476 0</Position>
+        <TextureCoordinate>0.7715969 -0.3358863</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>4.085914 -8.019031 0</Position>
+        <TextureCoordinate>0.899015069 -0.283108473</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>6.3639617 6.36398125 0</Position>
+        <TextureCoordinate>1.1214807 1.12148261</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>5.290068 7.281175 0</Position>
+        <TextureCoordinate>1.01660824 1.21105218</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>4.08591557 8.019086 0</Position>
+        <TextureCoordinate>0.8990152 1.28311384</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>1.40790987 -8.889161 0</Position>
+        <TextureCoordinate>0.6374912 -0.368082166</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>1.40790987 -8.889161 0</Position>
+        <TextureCoordinate>0.6374912 -0.368082166</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>2.78115273 -8.559476 0</Position>
+        <TextureCoordinate>0.7715969 -0.3358863</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>5.290068 7.281175 0</Position>
+        <TextureCoordinate>1.01660824 1.21105218</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>4.08591557 8.019086 0</Position>
+        <TextureCoordinate>0.8990152 1.28311384</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>2.78115368 8.55953 0</Position>
+        <TextureCoordinate>0.771597 1.3358916</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>0 -8.999972 0</Position>
+        <TextureCoordinate>0.5 -0.378903568</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>0 -8.999972 0</Position>
+        <TextureCoordinate>0.5 -0.378903568</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>1.40790987 -8.889161 0</Position>
+        <TextureCoordinate>0.6374912 -0.368082166</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>4.08591557 8.019086 0</Position>
+        <TextureCoordinate>0.8990152 1.28311384</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>2.78115368 8.55953 0</Position>
+        <TextureCoordinate>0.771597 1.3358916</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>1.40791166 8.889216 0</Position>
+        <TextureCoordinate>0.637491345 1.36808753</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-1.40791082 -8.889161 0</Position>
+        <TextureCoordinate>0.3625087 -0.368082166</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-1.40791082 -8.889161 0</Position>
+        <TextureCoordinate>0.3625087 -0.368082166</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>0 -8.999972 0</Position>
+        <TextureCoordinate>0.5 -0.378903568</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>2.78115368 8.55953 0</Position>
+        <TextureCoordinate>0.771597 1.3358916</TextureCoordinate>
+      </Item>
+    </m_vertices>
+    <m_triangles>
+      <Item>-8.559509 2.78117514 -8.88919449 1.40793908 -8.999999 2.746582E-05</Item>
+      <Item>-8.88919449 -1.40788412 -8.019057 4.085939 -8.559509 2.78117514</Item>
+      <Item>-8.559509 2.78117514 -8.999999 2.746582E-05 -8.88919449 -1.40788412</Item>
+      <Item>-8.88919449 -1.40788412 -8.559509 -2.7811203 -7.28115368 5.29009533</Item>
+      <Item>-7.28115368 5.29009533 -8.019057 4.085939 -8.88919449 -1.40788412</Item>
+      <Item>-8.559509 -2.7811203 -8.019059 -4.085884 -6.36396 6.363995</Item>
+      <Item>-6.36396 6.363995 -7.28115368 5.29009533 -8.559509 -2.7811203</Item>
+      <Item>-8.019059 -4.085884 -7.28115368 -5.29004049 -5.290067 7.281175</Item>
+      <Item>-5.290067 7.281175 -6.36396 6.363995 -8.019059 -4.085884</Item>
+      <Item>-7.28115368 -5.29004049 -6.3639617 -6.36392641 -4.085914 8.019086</Item>
+      <Item>-4.085914 8.019086 -5.290067 7.281175 -7.28115368 -5.29004049</Item>
+      <Item>-6.3639617 -6.36392641 -5.290067 -7.2811203 -2.781152 8.55953</Item>
+      <Item>-2.781152 8.55953 -4.085914 8.019086 -6.3639617 -6.36392641</Item>
+      <Item>-5.290067 -7.2811203 -4.085914 -8.019031 -1.407909 8.889216</Item>
+      <Item>-1.407909 8.889216 -2.781152 8.55953 -5.290067 -7.2811203</Item>
+      <Item>-4.085914 -8.019031 -2.78115368 -8.559476 8.58306862E-07 9.000028</Item>
+      <Item>8.58306862E-07 9.000028 -1.407909 8.889216 -4.085914 -8.019031</Item>
+      <Item>-2.78115368 -8.559476 -1.40791082 -8.889161 1.40791166 8.889216</Item>
+      <Item>1.40791166 8.889216 8.58306862E-07 9.000028 -2.78115368 -8.559476</Item>
+      <Item>8.019059 -4.085884 8.559509 -2.7811203 8.88919449 -1.40788412</Item>
+      <Item>8.88919449 -1.40788412 9 2.746582E-05 8.019059 -4.085884</Item>
+      <Item>9 2.746582E-05 8.88919449 1.40793908 8.019059 -4.085884</Item>
+      <Item>8.559509 2.78117514 7.28115273 -5.29004049 8.019059 -4.085884</Item>
+      <Item>8.019059 -4.085884 8.88919449 1.40793908 8.559509 2.78117514</Item>
+      <Item>8.559509 2.78117514 8.019059 4.085939 6.36396074 -6.36392641</Item>
+      <Item>6.36396074 -6.36392641 7.28115273 -5.29004049 8.559509 2.78117514</Item>
+      <Item>8.019059 4.085939 7.28115368 5.29009533 5.290067 -7.2811203</Item>
+      <Item>5.290067 -7.2811203 6.36396074 -6.36392641 8.019059 4.085939</Item>
+      <Item>7.28115368 5.29009533 6.3639617 6.36398125 4.085914 -8.019031</Item>
+      <Item>4.085914 -8.019031 5.290067 -7.2811203 7.28115368 5.29009533</Item>
+      <Item>6.3639617 6.36398125 5.290068 7.281175 2.78115273 -8.559476</Item>
+      <Item>2.78115273 -8.559476 4.085914 -8.019031 6.3639617 6.36398125</Item>
+      <Item>5.290068 7.281175 4.08591557 8.019086 1.40790987 -8.889161</Item>
+      <Item>1.40790987 -8.889161 2.78115273 -8.559476 5.290068 7.281175</Item>
+      <Item>4.08591557 8.019086 2.78115368 8.55953 0 -8.999972</Item>
+      <Item>0 -8.999972 1.40790987 -8.889161 4.08591557 8.019086</Item>
+      <Item>2.78115368 8.55953 1.40791166 8.889216 -1.40791082 -8.889161</Item>
+      <Item>-1.40791082 -8.889161 0 -8.999972 2.78115368 8.55953</Item>
+    </m_triangles>
+    <pos>-19.2939377 191.3216</pos>
+  </Asset>
+</XnaContent>

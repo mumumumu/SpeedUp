@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.MultiHit">
+    <m_density>0.02</m_density>
+    <m_mass>1</m_mass>
+    <m_friction>0.9</m_friction>
+    <m_restitution>1</m_restitution>
+    <m_rotation>0</m_rotation>
+    <m_damping>3</m_damping>
+    <m_radius>2.3</m_radius>
+    <m_linear_velocity>0 0</m_linear_velocity>
+    <m_angular_velocity>0</m_angular_velocity>
+    <m_position>-12.0648193 181.582764</m_position>
+    <m_name>multihit</m_name>
+    <m_is_dead>false</m_is_dead>
+    <m_is_added>true</m_is_added>
+    <m_buffered_position>-12.0648193 181.582764</m_buffered_position>
+    <m_buffered_angle>0</m_buffered_angle>
+    <m_is_throwable>false</m_is_throwable>
+    <m_is_destructible>true</m_is_destructible>
+    <m_destroy_threshold>30</m_destroy_threshold>
+    <m_last_destroy_frame>false</m_last_destroy_frame>
+    <m_texture_name>Art/speedup-AlienPlated</m_texture_name>
+    <m_texture_name_helper>Art/speedup-AlienPlated</m_texture_name_helper>
+    <m_disabled>false</m_disabled>
+    <m_width_height>6.2 4.6</m_width_height>
+    <m_tint>FF4C4C4C</m_tint>
+    <m_attack_speed>1</m_attack_speed>
+    <m_attack_power>10</m_attack_power>
+    <m_laser_slowdown>0.8</m_laser_slowdown>
+    <m_move_step>0.12</m_move_step>
+    <m_range>40</m_range>
+    <m_chase_dist>20</m_chase_dist>
+    <m_attack_dist>20</m_attack_dist>
+    <m_attack_cooldown>0</m_attack_cooldown>
+    <m_size>2.3</m_size>
+    <m_width>6.2</m_width>
+    <m_height>4.6</m_height>
+    <m_size_scale>1</m_size_scale>
+    <m_ai_state>SPAWNING</m_ai_state>
+    <m_type>PLATED</m_type>
+    <m_kill_under_speed>0</m_kill_under_speed>
+    <m_change_size>1</m_change_size>
+    <m_collision_type>NORMAL</m_collision_type>
+    <m_attack_rate>50</m_attack_rate>
+    <m_death_anim_frames>8</m_death_anim_frames>
+    <m_attack_anim_frames>0</m_attack_anim_frames>
+    <m_ai_type>ATTACKER</m_ai_type>
+    <m_alien_color>FFFFFFFF</m_alien_color>
+    <max_hit>4</max_hit>
+    <hit_counter>4</hit_counter>
+  </Asset>
+</XnaContent>

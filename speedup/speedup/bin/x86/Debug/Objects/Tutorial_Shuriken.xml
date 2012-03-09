@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.Ball">
+    <m_density>0.0600000024</m_density>
+    <m_mass>0.06785841</m_mass>
+    <m_friction>0</m_friction>
+    <m_restitution>0.5</m_restitution>
+    <m_rotation>0</m_rotation>
+    <m_damping>0.0300000012</m_damping>
+    <m_radius>0.6</m_radius>
+    <m_linear_velocity>0 0</m_linear_velocity>
+    <m_angular_velocity>0</m_angular_velocity>
+    <m_position>-12.7939911 65.52221</m_position>
+    <m_name>Tutorial_Shuriken</m_name>
+    <m_is_dead>false</m_is_dead>
+    <m_is_added>true</m_is_added>
+    <m_buffered_position>-12.7939911 65.52221</m_buffered_position>
+    <m_buffered_angle>0</m_buffered_angle>
+    <m_is_throwable>true</m_is_throwable>
+    <m_is_destructible>false</m_is_destructible>
+    <m_destroy_threshold>0</m_destroy_threshold>
+    <m_last_destroy_frame>false</m_last_destroy_frame>
+    <m_texture_name>Art/speedup-Shuriken</m_texture_name>
+    <m_texture_name_helper>Art/speedup-Shuriken</m_texture_name_helper>
+    <m_disabled>false</m_disabled>
+    <m_width_height>0 0</m_width_height>
+    <m_tint>FFFFFAF0</m_tint>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,6 @@
+Z:\cygwin\home\MU\cis3000\xna-project\Farseer Physics Engine 3.3 XNA\bin\x86\Debug\FarseerPhysicsXNA.dll
+Z:\cygwin\home\MU\cis3000\xna-project\Farseer Physics Engine 3.3 XNA\bin\x86\Debug\FarseerPhysicsXNA.pdb
+Z:\cygwin\home\MU\cis3000\xna-project\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\cygwin\home\MU\cis3000\xna-project\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+Z:\cygwin\home\MU\cis3000\xna-project\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\FarseerPhysicsXNA.dll
+Z:\cygwin\home\MU\cis3000\xna-project\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\FarseerPhysicsXNA.pdb

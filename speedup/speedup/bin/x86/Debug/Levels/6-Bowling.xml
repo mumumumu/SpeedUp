@@ -1,0 +1,3753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.SharedResourceLinkedList[speedup.GameObject]">
+    <Object>#Resource1</Object>
+    <Object>#Resource2</Object>
+    <Object>#Resource3</Object>
+    <Object>#Resource4</Object>
+    <Object>#Resource5</Object>
+    <Object>#Resource6</Object>
+    <Object>#Resource7</Object>
+    <Object>#Resource8</Object>
+    <Object>#Resource9</Object>
+    <Object>#Resource10</Object>
+    <Object>#Resource11</Object>
+    <Object>#Resource12</Object>
+    <Object>#Resource13</Object>
+    <Object>#Resource14</Object>
+    <Object>#Resource15</Object>
+    <Object>#Resource16</Object>
+    <Object>#Resource17</Object>
+    <Object>#Resource18</Object>
+    <Object>#Resource19</Object>
+    <Object>#Resource20</Object>
+    <Object>#Resource21</Object>
+    <Object>#Resource22</Object>
+    <Object>#Resource23</Object>
+    <Object>#Resource24</Object>
+    <Object>#Resource25</Object>
+    <Object>#Resource26</Object>
+    <Object>#Resource27</Object>
+    <Object>#Resource28</Object>
+    <Object>#Resource29</Object>
+    <Object>#Resource30</Object>
+    <Object>#Resource31</Object>
+    <Object>#Resource32</Object>
+    <Object>#Resource33</Object>
+    <Object>#Resource34</Object>
+    <Object>#Resource35</Object>
+    <Object>#Resource36</Object>
+    <Object>#Resource37</Object>
+    <Object>#Resource38</Object>
+    <Object>#Resource39</Object>
+    <Object>#Resource40</Object>
+    <Object>#Resource41</Object>
+    <Object>#Resource42</Object>
+    <Object>#Resource43</Object>
+    <Object>#Resource44</Object>
+    <Object>#Resource45</Object>
+    <Object>#Resource46</Object>
+    <Object>#Resource47</Object>
+    <Object>#Resource48</Object>
+    <Object>#Resource49</Object>
+    <Object>#Resource50</Object>
+    <Object>#Resource51</Object>
+    <Object>#Resource52</Object>
+    <Object>#Resource53</Object>
+    <Object>#Resource54</Object>
+    <Object>#Resource55</Object>
+    <Object>#Resource56</Object>
+    <Object>#Resource57</Object>
+    <Object>#Resource58</Object>
+    <Object>#Resource59</Object>
+    <Object>#Resource60</Object>
+    <Object>#Resource61</Object>
+    <Object>#Resource62</Object>
+    <Object>#Resource63</Object>
+    <Object>#Resource64</Object>
+    <Object>#Resource65</Object>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="speedup.FloorTile">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-34.835144 143.04747</m_position>
+      <m_name>FloorTile</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-34.835144 143.04747</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>1</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Space</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Space</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>11.52002 11.52002</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-23.4548149 -13.0044708 -20.041481 -13.2444611 -4.84148026 -13.2444611 13.5585232 -13.2444611 18.9985237 -13.2977905 19.26519 -7.244461 19.2918568 17.5555267 15.4785137 31.1288757 -38.25482 24.5955353</m_points>
+      <m_verts>-23.4548149 -13.0044708 -20.041481 -13.2444611 13.5585232 -13.2444611 18.9985237 -13.2977905 19.26519 -7.244461 19.2918568 17.5555267 15.4785137 31.1288757 -38.25482 24.5955353</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>13.5585232 -13.2444611 0</Position>
+          <TextureCoordinate>7.949738 -7.200268</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.9985237 -13.2977905 0</Position>
+          <TextureCoordinate>10.9387493 -7.23127365</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>19.26519 -7.244461 0</Position>
+          <TextureCoordinate>11.08527 -3.711896</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>15.4785137 31.1288757 0</Position>
+          <TextureCoordinate>9.004678 18.5981846</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.041481 -13.2444611 0</Position>
+          <TextureCoordinate>-10.5118027 -7.200268</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>13.5585232 -13.2444611 0</Position>
+          <TextureCoordinate>7.949738 -7.200268</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>13.5585232 -13.2444611 0</Position>
+          <TextureCoordinate>7.949738 -7.200268</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>19.26519 -7.244461 0</Position>
+          <TextureCoordinate>11.08527 -3.711896</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>19.2918568 17.5555267 0</Position>
+          <TextureCoordinate>11.0999212 10.7067022</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>19.2918568 17.5555267 0</Position>
+          <TextureCoordinate>11.0999212 10.7067022</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>15.4785137 31.1288757 0</Position>
+          <TextureCoordinate>9.004678 18.5981846</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>13.5585232 -13.2444611 0</Position>
+          <TextureCoordinate>7.949738 -7.200268</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-38.25482 24.5955353 0</Position>
+          <TextureCoordinate>-20.5191326 14.7997293</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-23.4548149 -13.0044708 0</Position>
+          <TextureCoordinate>-12.38726 -7.06073856</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.041481 -13.2444611 0</Position>
+          <TextureCoordinate>-10.5118027 -7.200268</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.041481 -13.2444611 0</Position>
+          <TextureCoordinate>-10.5118027 -7.200268</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>15.4785137 31.1288757 0</Position>
+          <TextureCoordinate>9.004678 18.5981846</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-38.25482 24.5955353 0</Position>
+          <TextureCoordinate>-20.5191326 14.7997293</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>13.5585232 -13.2444611 18.9985237 -13.2977905 19.26519 -7.244461</Item>
+        <Item>15.4785137 31.1288757 -20.041481 -13.2444611 13.5585232 -13.2444611</Item>
+        <Item>13.5585232 -13.2444611 19.26519 -7.244461 19.2918568 17.5555267</Item>
+        <Item>19.2918568 17.5555267 15.4785137 31.1288757 13.5585232 -13.2444611</Item>
+        <Item>-38.25482 24.5955353 -23.4548149 -13.0044708 -20.041481 -13.2444611</Item>
+        <Item>-20.041481 -13.2444611 15.4785137 31.1288757 -38.25482 24.5955353</Item>
+      </m_triangles>
+      <pos>-34.835144 143.04747</pos>
+    </Resource>
+    <Resource ID="#Resource2" Type="speedup.FloorTile">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-73.93844 103.272133</m_position>
+      <m_name>FloorTile</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-73.93844 103.272133</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>1</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Space</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Space</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0.145462036 0.145462036</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>18.9454575 -55.05934 18.7636414 -48.259346 18.7636414 -23.168457 18.7636414 9.55878448 18.7636414 25.99514 18.8727264 35.049675 21.3818169 69.43755 -35.28486 69.0375443 -62.8848343 -14.295784 -36.08484 -68.295784</m_points>
+      <m_verts>18.9454575 -55.05934 18.7636414 -48.259346 18.7636414 25.99514 18.8727264 35.049675 21.3818169 69.43755 -35.28486 69.0375443 -62.8848343 -14.295784 -36.08484 -68.295784</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>18.8727264 35.049675 0</Position>
+          <TextureCoordinate>10.86963 20.877718</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>21.3818169 69.43755 0</Position>
+          <TextureCoordinate>12.248251 40.87067</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-35.28486 69.0375443 0</Position>
+          <TextureCoordinate>-18.8872852 40.6381073</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-35.28486 69.0375443 0</Position>
+          <TextureCoordinate>-18.8872852 40.6381073</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.7636414 25.99514 0</Position>
+          <TextureCoordinate>10.8096933 15.6134529</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.8727264 35.049675 0</Position>
+          <TextureCoordinate>10.86963 20.877718</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-35.28486 69.0375443 0</Position>
+          <TextureCoordinate>-18.8872852 40.6381073</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-62.8848343 -14.295784 0</Position>
+          <TextureCoordinate>-34.0521049 -7.81150246</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.7636414 25.99514 0</Position>
+          <TextureCoordinate>10.8096933 15.6134529</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-36.08484 -68.295784 0</Position>
+          <TextureCoordinate>-19.3268337 -39.206852</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.9454575 -55.05934 0</Position>
+          <TextureCoordinate>10.9095926 -31.5112457</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.7636414 -48.259346 0</Position>
+          <TextureCoordinate>10.8096933 -27.5577583</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.7636414 -48.259346 0</Position>
+          <TextureCoordinate>10.8096933 -27.5577583</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-62.8848343 -14.295784 0</Position>
+          <TextureCoordinate>-34.0521049 -7.81150246</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-36.08484 -68.295784 0</Position>
+          <TextureCoordinate>-19.3268337 -39.206852</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.7636414 -48.259346 0</Position>
+          <TextureCoordinate>10.8096933 -27.5577583</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>18.7636414 25.99514 0</Position>
+          <TextureCoordinate>10.8096933 15.6134529</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-62.8848343 -14.295784 0</Position>
+          <TextureCoordinate>-34.0521049 -7.81150246</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>18.8727264 35.049675 21.3818169 69.43755 -35.28486 69.0375443</Item>
+        <Item>-35.28486 69.0375443 18.7636414 25.99514 18.8727264 35.049675</Item>
+        <Item>-35.28486 69.0375443 -62.8848343 -14.295784 18.7636414 25.99514</Item>
+        <Item>-36.08484 -68.295784 18.9454575 -55.05934 18.7636414 -48.259346</Item>
+        <Item>18.7636414 -48.259346 -62.8848343 -14.295784 -36.08484 -68.295784</Item>
+        <Item>18.7636414 -48.259346 18.7636414 25.99514 -62.8848343 -14.295784</Item>
+      </m_triangles>
+      <pos>-73.93844 103.272133</pos>
+    </Resource>
+    <Resource ID="#Resource3" Type="speedup.FloorTile">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-15.4561071 37.716835</m_position>
+      <m_name>FloorTile</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-15.4561071 37.716835</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>1</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Space</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Space</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0.200004578 0.200004578</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>49.12223 12.044445 37.12223 12.044445 11.12223 12.044445 -12.8777742 12.044445 -38.8777733 12.044445 -64.87777 12.044445 -82.37778 11.9444427 -80.31112 -16.3888912 -13.6444445 -45.58889 46.4888763 -30.5222263 74.0888748 1.077774 75.02221 7.21110153</m_points>
+      <m_verts>49.12223 12.044445 -64.87777 12.044445 -82.37778 11.9444427 -80.31112 -16.3888912 -13.6444445 -45.58889 46.4888763 -30.5222263 74.0888748 1.077774 75.02221 7.21110153</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-64.87777 12.044445 0</Position>
+          <TextureCoordinate>-35.1471252 7.502584</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-82.37778 11.9444427 0</Position>
+          <TextureCoordinate>-44.7625122 7.4444437</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-80.31112 -16.3888912 0</Position>
+          <TextureCoordinate>-43.6269875 -9.028425</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-13.6444445 -45.58889 0</Position>
+          <TextureCoordinate>-6.996948 -26.0051689</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>46.4888763 -30.5222263 0</Position>
+          <TextureCoordinate>26.0433388 -17.2454815</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>49.12223 12.044445 0</Position>
+          <TextureCoordinate>27.4902363 7.502584</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-64.87777 12.044445 0</Position>
+          <TextureCoordinate>-35.1471252 7.502584</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-80.31112 -16.3888912 0</Position>
+          <TextureCoordinate>-43.6269875 -9.028425</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-13.6444445 -45.58889 0</Position>
+          <TextureCoordinate>-6.996948 -26.0051689</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-13.6444445 -45.58889 0</Position>
+          <TextureCoordinate>-6.996948 -26.0051689</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>49.12223 12.044445 0</Position>
+          <TextureCoordinate>27.4902363 7.502584</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-64.87777 12.044445 0</Position>
+          <TextureCoordinate>-35.1471252 7.502584</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>74.0888748 1.077774 0</Position>
+          <TextureCoordinate>41.2081757 1.1266129</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>75.02221 7.21110153 0</Position>
+          <TextureCoordinate>41.720993 4.692501</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>49.12223 12.044445 0</Position>
+          <TextureCoordinate>27.4902363 7.502584</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>49.12223 12.044445 0</Position>
+          <TextureCoordinate>27.4902363 7.502584</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>46.4888763 -30.5222263 0</Position>
+          <TextureCoordinate>26.0433388 -17.2454815</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>74.0888748 1.077774 0</Position>
+          <TextureCoordinate>41.2081757 1.1266129</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-64.87777 12.044445 -82.37778 11.9444427 -80.31112 -16.3888912</Item>
+        <Item>-13.6444445 -45.58889 46.4888763 -30.5222263 49.12223 12.044445</Item>
+        <Item>-64.87777 12.044445 -80.31112 -16.3888912 -13.6444445 -45.58889</Item>
+        <Item>-13.6444445 -45.58889 49.12223 12.044445 -64.87777 12.044445</Item>
+        <Item>74.0888748 1.077774 75.02221 7.21110153 49.12223 12.044445</Item>
+        <Item>49.12223 12.044445 46.4888763 -30.5222263 74.0888748 1.077774</Item>
+      </m_triangles>
+      <pos>-15.4561071 37.716835</pos>
+    </Resource>
+    <Resource ID="#Resource4" Type="speedup.FloorTile">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.699999869</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>53.9139061 99.77461</m_position>
+      <m_name>FloorTile</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>53.9139061 99.77461</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>1</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Space</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Space</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>20.90001 20.90001</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-20.0977821 32.2700043 -20.2977829 20.2700043 -10.8977776 20.0700073 -10.74778 9.669998 -20.1477814 9.669998 -20.1477814 -3.83000183 -20.1477814 -30.8300018 -20.1477814 -57.8300056 -9.647778 -58.6800041 17.3522148 -58.6800041 34.1522179 -40.7800026 49.1522179 -19.5800018 44.05221 36.22 9.518875 70.88666 -1.94778824 71.1533356</m_points>
+      <m_verts>-20.0977821 32.2700043 -20.2977829 20.2700043 -10.8977776 20.0700073 -10.74778 9.669998 -20.1477814 9.669998 -20.1477814 -57.8300056 -9.647778 -58.6800041 17.3522148 -58.6800041 34.1522179 -40.7800026 49.1522179 -19.5800018 44.05221 36.22 9.518875 70.88666 -1.94778824 71.1533356</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-9.647778 -58.6800041 0</Position>
+          <TextureCoordinate>-4.80097675 -33.6162834</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>17.3522148 -58.6800041 0</Position>
+          <TextureCoordinate>10.0341835 -33.6162834</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>34.1522179 -40.7800026 0</Position>
+          <TextureCoordinate>19.2649536 -23.2093029</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.05221 36.22 0</Position>
+          <TextureCoordinate>24.7045116 21.55814</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>9.518875 70.88666 0</Position>
+          <TextureCoordinate>5.730151 41.7131729</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-9.647778 -58.6800041 0</Position>
+          <TextureCoordinate>-4.80097675 -33.6162834</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>34.1522179 -40.7800026 0</Position>
+          <TextureCoordinate>19.2649536 -23.2093029</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>49.1522179 -19.5800018 0</Position>
+          <TextureCoordinate>27.506712 -10.8837223</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.05221 36.22 0</Position>
+          <TextureCoordinate>24.7045116 21.55814</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.05221 36.22 0</Position>
+          <TextureCoordinate>24.7045116 21.55814</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-9.647778 -58.6800041 0</Position>
+          <TextureCoordinate>-4.80097675 -33.6162834</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>34.1522179 -40.7800026 0</Position>
+          <TextureCoordinate>19.2649536 -23.2093029</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.0977821 32.2700043 0</Position>
+          <TextureCoordinate>-10.542737 19.261631</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.2977829 20.2700043 0</Position>
+          <TextureCoordinate>-10.6526279 12.2848864</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-10.8977776 20.0700073 0</Position>
+          <TextureCoordinate>-5.48778963 12.1686087</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.1477814 9.669998 0</Position>
+          <TextureCoordinate>-10.5702095 6.122092</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.1477814 -57.8300056 0</Position>
+          <TextureCoordinate>-10.5702095 -33.122097</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-9.647778 -58.6800041 0</Position>
+          <TextureCoordinate>-4.80097675 -33.6162834</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>9.518875 70.88666 0</Position>
+          <TextureCoordinate>5.730151 41.7131729</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-10.8977776 20.0700073 0</Position>
+          <TextureCoordinate>-5.48778963 12.1686087</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-10.74778 9.669998 0</Position>
+          <TextureCoordinate>-5.40537357 6.122092</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-10.74778 9.669998 0</Position>
+          <TextureCoordinate>-5.40537357 6.122092</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.1477814 9.669998 0</Position>
+          <TextureCoordinate>-10.5702095 6.122092</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-9.647778 -58.6800041 0</Position>
+          <TextureCoordinate>-4.80097675 -33.6162834</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-9.647778 -58.6800041 0</Position>
+          <TextureCoordinate>-4.80097675 -33.6162834</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>9.518875 70.88666 0</Position>
+          <TextureCoordinate>5.730151 41.7131729</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-10.74778 9.669998 0</Position>
+          <TextureCoordinate>-5.40537357 6.122092</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>9.518875 70.88666 0</Position>
+          <TextureCoordinate>5.730151 41.7131729</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-1.94778824 71.1533356 0</Position>
+          <TextureCoordinate>-0.5702133 41.8682175</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.0977821 32.2700043 0</Position>
+          <TextureCoordinate>-10.542737 19.261631</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20.0977821 32.2700043 0</Position>
+          <TextureCoordinate>-10.542737 19.261631</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-10.8977776 20.0700073 0</Position>
+          <TextureCoordinate>-5.48778963 12.1686087</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>9.518875 70.88666 0</Position>
+          <TextureCoordinate>5.730151 41.7131729</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-9.647778 -58.6800041 17.3522148 -58.6800041 34.1522179 -40.7800026</Item>
+        <Item>44.05221 36.22 9.518875 70.88666 -9.647778 -58.6800041</Item>
+        <Item>34.1522179 -40.7800026 49.1522179 -19.5800018 44.05221 36.22</Item>
+        <Item>44.05221 36.22 -9.647778 -58.6800041 34.1522179 -40.7800026</Item>
+        <Item>-20.0977821 32.2700043 -20.2977829 20.2700043 -10.8977776 20.0700073</Item>
+        <Item>-20.1477814 9.669998 -20.1477814 -57.8300056 -9.647778 -58.6800041</Item>
+        <Item>9.518875 70.88666 -10.8977776 20.0700073 -10.74778 9.669998</Item>
+        <Item>-10.74778 9.669998 -20.1477814 9.669998 -9.647778 -58.6800041</Item>
+        <Item>-9.647778 -58.6800041 9.518875 70.88666 -10.74778 9.669998</Item>
+        <Item>9.518875 70.88666 -1.94778824 71.1533356 -20.0977821 32.2700043</Item>
+        <Item>-20.0977821 32.2700043 -10.8977776 20.0700073 9.518875 70.88666</Item>
+      </m_triangles>
+      <pos>53.9139061 99.77461</pos>
+    </Resource>
+    <Resource ID="#Resource5" Type="speedup.FloorTile">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>15.2669544 144.745453</m_position>
+      <m_name>FloorTile</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>15.2669544 144.745453</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>1</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Space</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Space</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>45.3500366 45.3500366</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-33.00083 7.599182 -31.05083 -10.60083 -21.5758324 -10.47583 -21.5008316 -15.0758362 -3.5008316 -15.0758362 13.7491684 -15.0758362 39.99917 -15.0758362 42.9491653 -5.05084229 37.2325058 44.4158173 -23.3008385 34.4158173</m_points>
+      <m_verts>-33.00083 7.599182 -31.05083 -10.60083 -21.5758324 -10.47583 -21.5008316 -15.0758362 39.99917 -15.0758362 42.9491653 -5.05084229 37.2325058 44.4158173 -23.3008385 34.4158173</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-33.00083 7.599182 0</Position>
+          <TextureCoordinate>-17.6323261 4.918129</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-31.05083 -10.60083 0</Position>
+          <TextureCoordinate>-16.5608959 -5.66327333</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-21.5758324 -10.47583 0</Position>
+          <TextureCoordinate>-11.3548527 -5.590599</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-21.5758324 -10.47583 0</Position>
+          <TextureCoordinate>-11.3548527 -5.590599</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-21.5008316 -15.0758362 0</Position>
+          <TextureCoordinate>-11.3136444 -8.265021</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>39.99917 -15.0758362 0</Position>
+          <TextureCoordinate>22.4775639 -8.265021</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>39.99917 -15.0758362 0</Position>
+          <TextureCoordinate>22.4775639 -8.265021</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>42.9491653 -5.05084229 0</Position>
+          <TextureCoordinate>24.0984421 -2.43653631</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-21.5758324 -10.47583 0</Position>
+          <TextureCoordinate>-11.3548527 -5.590599</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>42.9491653 -5.05084229 0</Position>
+          <TextureCoordinate>24.0984421 -2.43653631</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-33.00083 7.599182 0</Position>
+          <TextureCoordinate>-17.6323261 4.918129</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-21.5758324 -10.47583 0</Position>
+          <TextureCoordinate>-11.3548527 -5.590599</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>42.9491653 -5.05084229 0</Position>
+          <TextureCoordinate>24.0984421 -2.43653631</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>37.2325058 44.4158173 0</Position>
+          <TextureCoordinate>20.95742 26.3231487</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-23.3008385 34.4158173 0</Position>
+          <TextureCoordinate>-12.3026581 20.5091972</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-23.3008385 34.4158173 0</Position>
+          <TextureCoordinate>-12.3026581 20.5091972</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-33.00083 7.599182 0</Position>
+          <TextureCoordinate>-17.6323261 4.918129</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>42.9491653 -5.05084229 0</Position>
+          <TextureCoordinate>24.0984421 -2.43653631</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-33.00083 7.599182 -31.05083 -10.60083 -21.5758324 -10.47583</Item>
+        <Item>-21.5758324 -10.47583 -21.5008316 -15.0758362 39.99917 -15.0758362</Item>
+        <Item>39.99917 -15.0758362 42.9491653 -5.05084229 -21.5758324 -10.47583</Item>
+        <Item>42.9491653 -5.05084229 -33.00083 7.599182 -21.5758324 -10.47583</Item>
+        <Item>42.9491653 -5.05084229 37.2325058 44.4158173 -23.3008385 34.4158173</Item>
+        <Item>-23.3008385 34.4158173 -33.00083 7.599182 42.9491653 -5.05084229</Item>
+      </m_triangles>
+      <pos>15.2669544 144.745453</pos>
+    </Resource>
+    <Resource ID="#Resource6" Type="speedup.Ninja">
+      <m_density>0.36</m_density>
+      <m_mass>0.203575224</m_mass>
+      <m_friction>0.6</m_friction>
+      <m_restitution>0.5</m_restitution>
+      <m_rotation>-3.13995957</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0.3</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.943469 131.2623</m_position>
+      <m_name>Ninja</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.943469 131.2623</m_buffered_position>
+      <m_buffered_angle>-3.13995957</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-NinjaAnimated</m_texture_name>
+      <m_texture_name_helper>Art/speedup-NinjaAnimated</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFFFF</m_tint>
+      <m_throw_power>2</m_throw_power>
+      <m_movement_accel>10</m_movement_accel>
+      <m_maxspeed>150</m_maxspeed>
+      <m_max_throwable_capacity>2</m_max_throwable_capacity>
+      <m_boost_amt>50</m_boost_amt>
+      <m_cruise>false</m_cruise>
+      <m_cruise_cooldown>255</m_cruise_cooldown>
+      <m_speed>0</m_speed>
+      <m_picking_up>false</m_picking_up>
+      <m_is_moving>false</m_is_moving>
+      <m_facing_angle>-1.5707963267948966</m_facing_angle>
+      <Facing_Vector>0.00163303572 -0.9999987</Facing_Vector>
+      <throwable_objects />
+      <m_has_item>true</m_has_item>
+    </Resource>
+    <Resource ID="#Resource7" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>38.41367 109.4731</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>38.41367 109.4731</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-5 -0.25 5 -0.25 5 0.25 -5 0.25</m_points>
+      <m_verts>-5 -0.25 5 -0.25 5 0.25 -5 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-5 -0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 -0.25 0</Position>
+          <TextureCoordinate>2.04321 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 0.25 0</Position>
+          <TextureCoordinate>2.04321 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 0.25 0</Position>
+          <TextureCoordinate>2.04321 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-5 0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-5 -0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-5 -0.25 5 -0.25 5 0.25</Item>
+        <Item>5 0.25 -5 0.25 -5 -0.25</Item>
+      </m_triangles>
+      <pos>38.41367 109.4731</pos>
+    </Resource>
+    <Resource ID="#Resource8" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-6.28938866 131.957</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-6.28938866 131.957</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.25 -2 0.25 -2 0.25 2 -0.25 2</m_points>
+      <m_verts>-0.25 -2 0.25 -2 0.25 2 -0.25 2</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.25 -2 0</Position>
+          <TextureCoordinate>0.422839522 -0.434579432</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 -2 0</Position>
+          <TextureCoordinate>0.5771605 -0.434579432</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 2 0</Position>
+          <TextureCoordinate>0.5771605 1.43457937</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 2 0</Position>
+          <TextureCoordinate>0.5771605 1.43457937</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 2 0</Position>
+          <TextureCoordinate>0.422839522 1.43457937</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 -2 0</Position>
+          <TextureCoordinate>0.422839522 -0.434579432</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.25 -2 0.25 -2 0.25 2</Item>
+        <Item>0.25 2 -0.25 2 -0.25 -2</Item>
+      </m_triangles>
+      <pos>-6.28938866 131.957</pos>
+    </Resource>
+    <Resource ID="#Resource9" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-15.7196293 132.057281</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-15.7196293 132.057281</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.25 -2 0.25 -2 0.25 2 -0.25 2</m_points>
+      <m_verts>-0.25 -2 0.25 -2 0.25 2 -0.25 2</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.25 -2 0</Position>
+          <TextureCoordinate>0.422839522 -0.434579432</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 -2 0</Position>
+          <TextureCoordinate>0.5771605 -0.434579432</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 2 0</Position>
+          <TextureCoordinate>0.5771605 1.43457937</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 2 0</Position>
+          <TextureCoordinate>0.5771605 1.43457937</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 2 0</Position>
+          <TextureCoordinate>0.422839522 1.43457937</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 -2 0</Position>
+          <TextureCoordinate>0.422839522 -0.434579432</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.25 -2 0.25 -2 0.25 2</Item>
+        <Item>0.25 2 -0.25 2 -0.25 -2</Item>
+      </m_triangles>
+      <pos>-15.7196293 132.057281</pos>
+    </Resource>
+    <Resource ID="#Resource10" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-35.4322052 129.761948</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-35.4322052 129.761948</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-20 -0.25 20 -0.25 20 0.25 -20 0.25</m_points>
+      <m_verts>-20 -0.25 20 -0.25 20 0.25 -20 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-20 -0.25 0</Position>
+          <TextureCoordinate>-5.67283964 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>20 -0.25 0</Position>
+          <TextureCoordinate>6.67283964 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>20 0.25 0</Position>
+          <TextureCoordinate>6.67283964 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>20 0.25 0</Position>
+          <TextureCoordinate>6.67283964 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20 0.25 0</Position>
+          <TextureCoordinate>-5.67283964 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20 -0.25 0</Position>
+          <TextureCoordinate>-5.67283964 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-20 -0.25 20 -0.25 20 0.25</Item>
+        <Item>20 0.25 -20 0.25 -20 -0.25</Item>
+      </m_triangles>
+      <pos>-35.4322052 129.761948</pos>
+    </Resource>
+    <Resource ID="#Resource11" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>13.5683088 129.663681</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>13.5683088 129.663681</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-20 -0.25 20 -0.25 20 0.25 -20 0.25</m_points>
+      <m_verts>-20 -0.25 20 -0.25 20 0.25 -20 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-20 -0.25 0</Position>
+          <TextureCoordinate>-5.67283964 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>20 -0.25 0</Position>
+          <TextureCoordinate>6.67283964 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>20 0.25 0</Position>
+          <TextureCoordinate>6.67283964 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>20 0.25 0</Position>
+          <TextureCoordinate>6.67283964 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20 0.25 0</Position>
+          <TextureCoordinate>-5.67283964 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-20 -0.25 0</Position>
+          <TextureCoordinate>-5.67283964 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-20 -0.25 20 -0.25 20 0.25</Item>
+        <Item>20 0.25 -20 0.25 -20 -0.25</Item>
+      </m_triangles>
+      <pos>13.5683088 129.663681</pos>
+    </Resource>
+    <Resource ID="#Resource12" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-55.22378 89.8757</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-55.22378 89.8757</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.25 -40 0.25 -40 0.25 40 -0.25 40</m_points>
+      <m_verts>-0.25 -40 0.25 -40 0.25 40 -0.25 40</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.25 -40 0</Position>
+          <TextureCoordinate>0.422839522 -18.19159</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 -40 0</Position>
+          <TextureCoordinate>0.5771605 -18.19159</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 40 0</Position>
+          <TextureCoordinate>0.5771605 19.19159</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 40 0</Position>
+          <TextureCoordinate>0.5771605 19.19159</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 40 0</Position>
+          <TextureCoordinate>0.422839522 19.19159</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 -40 0</Position>
+          <TextureCoordinate>0.422839522 -18.19159</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.25 -40 0.25 -40 0.25 40</Item>
+        <Item>0.25 40 -0.25 40 -0.25 -40</Item>
+      </m_triangles>
+      <pos>-55.22378 89.8757</pos>
+    </Resource>
+    <Resource ID="#Resource13" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.6645851 49.6879921</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.6645851 49.6879921</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-45 -0.25 44.9999962 -0.25 44.9999962 0.25 -45 0.25</m_points>
+      <m_verts>-45 -0.25 44.9999962 -0.25 44.9999962 0.25 -45 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-45 -0.25 0</Position>
+          <TextureCoordinate>-13.3888893 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.9999962 -0.25 0</Position>
+          <TextureCoordinate>14.3888874 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.9999962 0.25 0</Position>
+          <TextureCoordinate>14.3888874 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.9999962 0.25 0</Position>
+          <TextureCoordinate>14.3888874 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-45 0.25 0</Position>
+          <TextureCoordinate>-13.3888893 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-45 -0.25 0</Position>
+          <TextureCoordinate>-13.3888893 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-45 -0.25 44.9999962 -0.25 44.9999962 0.25</Item>
+        <Item>44.9999962 0.25 -45 0.25 -45 -0.25</Item>
+      </m_triangles>
+      <pos>-10.6645851 49.6879921</pos>
+    </Resource>
+    <Resource ID="#Resource14" Type="speedup.DeathTouch">
+      <m_density>0</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>2</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.9390965 97.45079</m_position>
+      <m_name>Ball</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.9390965 97.45079</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Floor</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Floor</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FF000000</m_tint>
+      <m_size>90 10</m_size>
+      <m_scale>8.65 0.9765625</m_scale>
+      <m_saved_scale>8.65 0.9765625</m_saved_scale>
+      <m_pit_num>-1</m_pit_num>
+    </Resource>
+    <Resource ID="#Resource15" Type="speedup.TriggerableObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>1.486603</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-11.1294146 98.01127</m_position>
+      <m_name>TO_camera_control</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-11.1294146 98.01127</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-SonicBoom</m_texture_name>
+      <m_texture_name_helper>Art/speedup-SonicBoom</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFF4500</m_tint>
+      <m_is_active>false</m_is_active>
+      <m_type>CAMERA_CONTROL</m_type>
+      <m_textbox_width>0</m_textbox_width>
+      <m_follow_me>true</m_follow_me>
+      <m_set_zoom>0.15</m_set_zoom>
+      <m_zoom_mult>1</m_zoom_mult>
+      <m_timer_checkpoint_set>120</m_timer_checkpoint_set>
+      <m_length>3.349998</m_length>
+      <m_invisible>true</m_invisible>
+      <m_scale>0.0618308969 0.389150858</m_scale>
+      <m_width>0.5</m_width>
+      <_length>3.349998</_length>
+    </Resource>
+    <Resource ID="#Resource16" Type="speedup.ConditionTriggered">
+      <m_density>0.05</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>4</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-0.348138332 139.796539</m_position>
+      <m_name>Trigger</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-0.348138332 139.796539</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-groundswitch-depressed</m_texture_name>
+      <m_texture_name_helper>Art/speedup-groundswitch-depressed</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_attached_to>#Resource66</m_attached_to>
+      <m_cooldown>120</m_cooldown>
+      <m_deactivated>false</m_deactivated>
+      <m_active>false</m_active>
+      <m_type>NO_COLLISION</m_type>
+      <m_size_scale>1</m_size_scale>
+      <m_condition_type>NINJA_HAS_ITEM</m_condition_type>
+      <trigger_list>#Resource67</trigger_list>
+    </Resource>
+    <Resource ID="#Resource17" Type="speedup.Ball">
+      <m_density>0.0600000024</m_density>
+      <m_mass>0.06785841</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.5</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0.0300000012</m_damping>
+      <m_radius>0.6</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.9764519 124.006279</m_position>
+      <m_name>Ball</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.9764519 124.006279</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>true</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-BallSmall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-BallSmall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+    </Resource>
+    <Resource ID="#Resource18" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-46.1193123 65.29209</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-46.1193123 65.29209</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource19" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-43.1608734 65.470665</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-43.1608734 65.470665</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource20" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-40.1877365 65.40645</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-40.1877365 65.40645</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource21" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-41.3425636 68.1490555</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-41.3425636 68.1490555</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource22" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-44.4203453 68.20252</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-44.4203453 68.20252</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource23" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-42.75956 70.7630844</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-42.75956 70.7630844</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource24" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-32.2493629 79.66756</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-32.2493629 79.66756</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource25" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-29.3129482 79.68913</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-29.3129482 79.68913</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource26" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-26.2969723 79.61178</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-26.2969723 79.61178</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource27" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-30.7785072 77.0200348</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-30.7785072 77.0200348</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource28" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-27.800703 77.04295</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-27.800703 77.04295</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource29" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-29.2300243 74.43906</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-29.2300243 74.43906</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource30" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-30.676384 82.3341</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-30.676384 82.3341</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource31" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-27.7020054 82.3071747</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-27.7020054 82.3071747</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource32" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-29.0691967 85.04995</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-29.0691967 85.04995</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource33" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-11.7947226 65.3055344</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-11.7947226 65.3055344</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource34" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-17.0318432 64.966835</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-17.0318432 64.966835</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource35" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-14.0689 64.95375</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-14.0689 64.95375</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource36" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-12.6959972 68.01706</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-12.6959972 68.01706</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource37" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-15.6586027 68.1249161</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-15.6586027 68.1249161</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource38" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-14.1251564 70.6624146</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-14.1251564 70.6624146</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource39" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>0.356456459 79.458725</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>0.356456459 79.458725</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource40" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-2.68855214 79.68588</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-2.68855214 79.68588</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource41" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>3.27827334 79.56589</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>3.27827334 79.56589</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource42" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-1.13727188 77.16049</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-1.13727188 77.16049</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource43" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>1.178741 77.07428</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>1.178741 77.07428</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource44" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-0.175915778 74.37292</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-0.175915778 74.37292</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource45" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-0.953996539 82.31637</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-0.953996539 82.31637</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource46" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>2.010242 82.3381653</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>2.010242 82.3381653</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource47" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>0.5398993 85.0308456</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>0.5398993 85.0308456</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource48" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>14.0372972 64.41767</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>14.0372972 64.41767</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource49" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>17.036129 64.31513</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>17.036129 64.31513</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource50" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>20.0506744 64.39369</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>20.0506744 64.39369</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource51" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>18.6288967 66.92975</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>18.6288967 66.92975</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource52" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>15.6298285 66.9347458</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>15.6298285 66.9347458</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource53" Type="speedup.Alien">
+      <m_density>0.1</m_density>
+      <m_mass>0.6927212</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>17.1840229 69.52933</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>17.1840229 69.52933</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.6</m_laser_slowdown>
+      <m_move_step>0.12</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>20</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>PEON</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource54" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>33.68091 79.30562</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>33.68091 79.30562</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.25 -30 0.25 -30 0.25 30 -0.25 30</m_points>
+      <m_verts>-0.25 -30 0.25 -30 0.25 30 -0.25 30</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.25 -30 0</Position>
+          <TextureCoordinate>0.422839522 -13.518692</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 -30 0</Position>
+          <TextureCoordinate>0.5771605 -13.518692</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 30 0</Position>
+          <TextureCoordinate>0.5771605 14.518692</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 30 0</Position>
+          <TextureCoordinate>0.5771605 14.518692</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 30 0</Position>
+          <TextureCoordinate>0.422839522 14.518692</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 -30 0</Position>
+          <TextureCoordinate>0.422839522 -13.518692</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.25 -30 0.25 -30 0.25 30</Item>
+        <Item>0.25 30 -0.25 30 -0.25 -30</Item>
+      </m_triangles>
+      <pos>33.68091 79.30562</pos>
+    </Resource>
+    <Resource ID="#Resource55" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>43.2081833 114.735916</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>43.2081833 114.735916</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.25 -5 0.25 -5 0.25 5 -0.25 5</m_points>
+      <m_verts>-0.25 -5 0.25 -5 0.25 5 -0.25 5</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.25 -5 0</Position>
+          <TextureCoordinate>0.422839522 -1.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 -5 0</Position>
+          <TextureCoordinate>0.5771605 -1.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 5 0</Position>
+          <TextureCoordinate>0.5771605 2.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 5 0</Position>
+          <TextureCoordinate>0.5771605 2.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 5 0</Position>
+          <TextureCoordinate>0.422839522 2.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 -5 0</Position>
+          <TextureCoordinate>0.422839522 -1.83644867</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.25 -5 0.25 -5 0.25 5</Item>
+        <Item>0.25 5 -0.25 5 -0.25 -5</Item>
+      </m_triangles>
+      <pos>43.2081833 114.735916</pos>
+    </Resource>
+    <Resource ID="#Resource56" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-11.0045118 134.164032</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-11.0045118 134.164032</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-5 -0.25 5 -0.25 5 0.25 -5 0.25</m_points>
+      <m_verts>-5 -0.25 5 -0.25 5 0.25 -5 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-5 -0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 -0.25 0</Position>
+          <TextureCoordinate>2.04321 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 0.25 0</Position>
+          <TextureCoordinate>2.04321 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 0.25 0</Position>
+          <TextureCoordinate>2.04321 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-5 0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-5 -0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-5 -0.25 5 -0.25 5 0.25</Item>
+        <Item>5 0.25 -5 0.25 -5 -0.25</Item>
+      </m_triangles>
+      <pos>-11.0045118 134.164032</pos>
+    </Resource>
+    <Resource ID="#Resource57" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>38.4500351 119.945831</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>38.4500351 119.945831</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-5 -0.25 5 -0.25 5 0.25 -5 0.25</m_points>
+      <m_verts>-5 -0.25 5 -0.25 5 0.25 -5 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-5 -0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 -0.25 0</Position>
+          <TextureCoordinate>2.04321 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 0.25 0</Position>
+          <TextureCoordinate>2.04321 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>5 0.25 0</Position>
+          <TextureCoordinate>2.04321 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-5 0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-5 -0.25 0</Position>
+          <TextureCoordinate>-1.04320991 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-5 -0.25 5 -0.25 5 0.25</Item>
+        <Item>5 0.25 -5 0.25 -5 -0.25</Item>
+      </m_triangles>
+      <pos>38.4500351 119.945831</pos>
+    </Resource>
+    <Resource ID="#Resource58" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>33.6809158 124.77227</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>33.6809158 124.77227</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.25 -5 0.25 -5 0.25 5 -0.25 5</m_points>
+      <m_verts>-0.25 -5 0.25 -5 0.25 5 -0.25 5</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.25 -5 0</Position>
+          <TextureCoordinate>0.422839522 -1.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 -5 0</Position>
+          <TextureCoordinate>0.5771605 -1.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 5 0</Position>
+          <TextureCoordinate>0.5771605 2.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 5 0</Position>
+          <TextureCoordinate>0.5771605 2.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 5 0</Position>
+          <TextureCoordinate>0.422839522 2.83644867</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 -5 0</Position>
+          <TextureCoordinate>0.422839522 -1.83644867</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.25 -5 0.25 -5 0.25 5</Item>
+        <Item>0.25 5 -0.25 5 -0.25 -5</Item>
+      </m_triangles>
+      <pos>33.6809158 124.77227</pos>
+    </Resource>
+    <Resource ID="#Resource59" Type="speedup.TriggerableObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>1.57</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>1.55660343</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>34.039753 114.7495</m_position>
+      <m_name>TriggerableObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>34.039753 114.7495</m_buffered_position>
+      <m_buffered_angle>1.57</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Door</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Door</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FF6495ED</m_tint>
+      <m_is_active>false</m_is_active>
+      <m_type>DOOR</m_type>
+      <m_textbox_width>0</m_textbox_width>
+      <m_follow_me>false</m_follow_me>
+      <m_set_zoom>0</m_set_zoom>
+      <m_zoom_mult>0</m_zoom_mult>
+      <m_timer_checkpoint_set>120</m_timer_checkpoint_set>
+      <m_length>10</m_length>
+      <m_invisible>false</m_invisible>
+      <m_scale>0.5896226 0.389150858</m_scale>
+      <m_width>0.5</m_width>
+      <_length>10</_length>
+    </Resource>
+    <Resource ID="#Resource60" Type="speedup.ConditionTriggered">
+      <m_density>0.05</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>4</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>47.66733 98.8585358</m_position>
+      <m_name>Trigger</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>47.66733 98.8585358</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-groundswitch-depressed</m_texture_name>
+      <m_texture_name_helper>Art/speedup-groundswitch-depressed</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_attached_to>#Resource68</m_attached_to>
+      <m_cooldown>-60</m_cooldown>
+      <m_deactivated>false</m_deactivated>
+      <m_active>true</m_active>
+      <m_type>NO_COLLISION</m_type>
+      <m_size_scale>1</m_size_scale>
+      <m_condition_type>DEATH</m_condition_type>
+      <trigger_list>#Resource69</trigger_list>
+    </Resource>
+    <Resource ID="#Resource61" Type="speedup.Trigger">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>3.08</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>38.4641571 114.967857</m_position>
+      <m_name>floor_goal_trigger</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>38.4641571 114.967857</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-groundswitch</m_texture_name>
+      <m_texture_name_helper>Art/speedup-groundswitch</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_attached_to>#Resource70</m_attached_to>
+      <m_cooldown>60</m_cooldown>
+      <m_deactivated>false</m_deactivated>
+      <m_active>false</m_active>
+      <m_type>FLOOR</m_type>
+      <m_size_scale>0.77</m_size_scale>
+    </Resource>
+    <Resource ID="#Resource62" Type="speedup.TriggerableObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>3.144951</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>48.7132339 128.9085</m_position>
+      <m_name>Goal_Object_is_Ninja</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>48.7132339 128.9085</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-NinjaSmall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-NinjaSmall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_is_active>false</m_is_active>
+      <m_type>GOAL</m_type>
+      <m_textbox_width>0</m_textbox_width>
+      <m_follow_me>false</m_follow_me>
+      <m_set_zoom>0</m_set_zoom>
+      <m_zoom_mult>0</m_zoom_mult>
+      <m_timer_checkpoint_set>120</m_timer_checkpoint_set>
+      <m_length>6.59999943</m_length>
+      <m_invisible>true</m_invisible>
+      <m_scale>0.389150918 0.389150918</m_scale>
+      <m_width>0.5</m_width>
+      <_length>6.59999943</_length>
+    </Resource>
+    <Resource ID="#Resource63" Type="speedup.TriggerableObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>1.55660391</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>5.466675 131.2</m_position>
+      <m_name>TO_Textbox</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>5.466675 131.2</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Door</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Door</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_is_active>false</m_is_active>
+      <m_type>TEXTBOX</m_type>
+      <m_text>DON'T WORRY, BALLS WILL REPLENISH</m_text>
+      <m_textbox_width>1000</m_textbox_width>
+      <m_follow_me>false</m_follow_me>
+      <m_set_zoom>0</m_set_zoom>
+      <m_zoom_mult>0</m_zoom_mult>
+      <m_timer_checkpoint_set>120</m_timer_checkpoint_set>
+      <m_length>6.60000038</m_length>
+      <m_invisible>false</m_invisible>
+      <m_scale>0.389150977 0.389150977</m_scale>
+      <m_width>0.5</m_width>
+      <_length>6.60000038</_length>
+    </Resource>
+    <Resource ID="#Resource64" Type="speedup.BallSpawner">
+      <m_density>0.05</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>4</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-11.0230331 123.866524</m_position>
+      <m_name>Trigger</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-11.0230331 123.866524</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-groundswitch-depressed</m_texture_name>
+      <m_texture_name_helper>Art/speedup-groundswitch-depressed</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0.25 0.25</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_attached_to>#Resource71</m_attached_to>
+      <m_cooldown>60</m_cooldown>
+      <m_deactivated>false</m_deactivated>
+      <m_active>true</m_active>
+      <m_type>FLOOR</m_type>
+      <m_size_scale>1</m_size_scale>
+      <m_points>-44.421875 5.756256 -44.44687 -21.46875 44.5281219 -21.4437485 44.5531235 5.606247 4.57812643 5.631256 4.77812624 10.1062469 -4.721876 10.1312561 -4.846876 5.681259</m_points>
+      <pos>-10.9093761 124.056732</pos>
+      <m_vertices>
+        <Item>
+          <Position>44.5281219 -21.4437485 0</Position>
+          <TextureCoordinate>6.06601524 -2.18046856</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.5531235 5.606247 0</Position>
+          <TextureCoordinate>6.06914043 1.20078087</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>4.57812643 5.631256 0</Position>
+          <TextureCoordinate>1.07226586 1.203907</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>4.57812643 5.631256 0</Position>
+          <TextureCoordinate>1.07226586 1.203907</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>4.77812624 10.1062469 0</Position>
+          <TextureCoordinate>1.09726572 1.76328087</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-4.721876 10.1312561 0</Position>
+          <TextureCoordinate>-0.09023452 1.766407</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-4.721876 10.1312561 0</Position>
+          <TextureCoordinate>-0.09023452 1.766407</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-4.846876 5.681259 0</Position>
+          <TextureCoordinate>-0.105859518 1.21015739</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>4.57812643 5.631256 0</Position>
+          <TextureCoordinate>1.07226586 1.203907</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-44.44687 -21.46875 0</Position>
+          <TextureCoordinate>-5.05585861 -2.18359375</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>44.5281219 -21.4437485 0</Position>
+          <TextureCoordinate>6.06601524 -2.18046856</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>4.57812643 5.631256 0</Position>
+          <TextureCoordinate>1.07226586 1.203907</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>4.57812643 5.631256 0</Position>
+          <TextureCoordinate>1.07226586 1.203907</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-4.846876 5.681259 0</Position>
+          <TextureCoordinate>-0.105859518 1.21015739</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-44.44687 -21.46875 0</Position>
+          <TextureCoordinate>-5.05585861 -2.18359375</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-4.846876 5.681259 0</Position>
+          <TextureCoordinate>-0.105859518 1.21015739</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-44.421875 5.756256 0</Position>
+          <TextureCoordinate>-5.05273438 1.219532</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-44.44687 -21.46875 0</Position>
+          <TextureCoordinate>-5.05585861 -2.18359375</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>44.5281219 -21.4437485 44.5531235 5.606247 4.57812643 5.631256</Item>
+        <Item>4.57812643 5.631256 4.77812624 10.1062469 -4.721876 10.1312561</Item>
+        <Item>-4.721876 10.1312561 -4.846876 5.681259 4.57812643 5.631256</Item>
+        <Item>-44.44687 -21.46875 44.5281219 -21.4437485 4.57812643 5.631256</Item>
+        <Item>4.57812643 5.631256 -4.846876 5.681259 -44.44687 -21.46875</Item>
+        <Item>-4.846876 5.681259 -44.421875 5.756256 -44.44687 -21.46875</Item>
+      </m_triangles>
+      <ball_count>0</ball_count>
+      <ball_list />
+    </Resource>
+    <Resource ID="#Resource65" Type="speedup.TriggerableObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>1.55660391</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-43.5999947 131.28</m_position>
+      <m_name>TO_Textbox</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-43.5999947 131.28</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Door</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Door</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_is_active>false</m_is_active>
+      <m_type>TEXTBOX</m_type>
+      <m_text>KILL ALL ALIENS ACROSS THE CHASM TO PROCEED</m_text>
+      <m_textbox_width>800</m_textbox_width>
+      <m_follow_me>false</m_follow_me>
+      <m_set_zoom>0</m_set_zoom>
+      <m_zoom_mult>0</m_zoom_mult>
+      <m_timer_checkpoint_set>120</m_timer_checkpoint_set>
+      <m_length>6.60000038</m_length>
+      <m_invisible>false</m_invisible>
+      <m_scale>0.389150977 0.389150977</m_scale>
+      <m_width>0.5</m_width>
+      <_length>6.60000038</_length>
+    </Resource>
+    <Resource ID="#Resource66" Type="speedup.SharedResourceList[speedup.TriggerableObject]">
+      <Item>#Resource15</Item>
+    </Resource>
+    <Resource ID="#Resource67" Type="speedup.SharedResourceList">
+      <Object>#Resource6</Object>
+    </Resource>
+    <Resource ID="#Resource68" Type="speedup.SharedResourceList[speedup.TriggerableObject]">
+      <Item>#Resource59</Item>
+    </Resource>
+    <Resource ID="#Resource69" Type="speedup.SharedResourceList">
+      <Object>#Resource18</Object>
+      <Object>#Resource19</Object>
+      <Object>#Resource20</Object>
+      <Object>#Resource21</Object>
+      <Object>#Resource22</Object>
+      <Object>#Resource23</Object>
+      <Object>#Resource24</Object>
+      <Object>#Resource25</Object>
+      <Object>#Resource26</Object>
+      <Object>#Resource27</Object>
+      <Object>#Resource28</Object>
+      <Object>#Resource29</Object>
+      <Object>#Resource30</Object>
+      <Object>#Resource31</Object>
+      <Object>#Resource32</Object>
+      <Object>#Resource33</Object>
+      <Object>#Resource34</Object>
+      <Object>#Resource35</Object>
+      <Object>#Resource36</Object>
+      <Object>#Resource37</Object>
+      <Object>#Resource38</Object>
+      <Object>#Resource39</Object>
+      <Object>#Resource40</Object>
+      <Object>#Resource41</Object>
+      <Object>#Resource42</Object>
+      <Object>#Resource43</Object>
+      <Object>#Resource44</Object>
+      <Object>#Resource45</Object>
+      <Object>#Resource46</Object>
+      <Object>#Resource47</Object>
+      <Object>#Resource48</Object>
+      <Object>#Resource49</Object>
+      <Object>#Resource50</Object>
+      <Object>#Resource51</Object>
+      <Object>#Resource52</Object>
+      <Object>#Resource53</Object>
+    </Resource>
+    <Resource ID="#Resource70" Type="speedup.SharedResourceList[speedup.TriggerableObject]">
+      <Item>#Resource62</Item>
+    </Resource>
+    <Resource ID="#Resource71" Type="speedup.SharedResourceList[speedup.TriggerableObject]" />
+  </Resources>
+</XnaContent>

@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.SharedResourceLinkedList[speedup.GameObject]">
+    <Object>#Resource1</Object>
+    <Object>#Resource2</Object>
+    <Object>#Resource3</Object>
+    <Object>#Resource4</Object>
+    <Object>#Resource5</Object>
+    <Object>#Resource6</Object>
+    <Object>#Resource7</Object>
+    <Object>#Resource8</Object>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="speedup.Ninja">
+      <m_density>0.36</m_density>
+      <m_mass>0.203575224</m_mass>
+      <m_friction>0.6</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>-1.61767244</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0.5</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-4.20235825 212.093628</m_position>
+      <m_name>Ninja</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-4.20235825 212.093628</m_buffered_position>
+      <m_buffered_angle>-1.61767244</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-NinjaAnimated</m_texture_name>
+      <m_texture_name_helper>Art/speedup-NinjaAnimated</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFFFF</m_tint>
+      <m_throw_power>1.5</m_throw_power>
+      <m_movement_accel>10</m_movement_accel>
+      <m_maxspeed>150</m_maxspeed>
+      <m_max_throwable_capacity>2</m_max_throwable_capacity>
+      <m_boost_amt>50</m_boost_amt>
+      <m_cruise>false</m_cruise>
+      <m_cruise_cooldown>255</m_cruise_cooldown>
+      <m_speed>0</m_speed>
+      <m_picking_up>false</m_picking_up>
+      <m_is_moving>false</m_is_moving>
+      <m_facing_angle>-1.5707963267948966</m_facing_angle>
+      <Facing_Vector>0.998901546 -0.046858903</Facing_Vector>
+      <throwable_objects />
+      <m_has_item>false</m_has_item>
+    </Resource>
+    <Resource ID="#Resource2" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>20.124239 228.21756</m_position>
+      <m_name>LengthX_10_wall</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>20.124239 228.21756</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-10 -0.25 10 -0.25 10 0.25 -10 0.25</m_points>
+      <m_verts>-30 -0.25 30 -0.25 30 0.25 -30 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>3</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-30 -0.25 0</Position>
+          <TextureCoordinate>-8.759259 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>30 -0.25 0</Position>
+          <TextureCoordinate>9.759259 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>30 0.25 0</Position>
+          <TextureCoordinate>9.759259 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>30 0.25 0</Position>
+          <TextureCoordinate>9.759259 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-30 0.25 0</Position>
+          <TextureCoordinate>-8.759259 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-30 -0.25 0</Position>
+          <TextureCoordinate>-8.759259 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-30 -0.25 30 -0.25 30 0.25</Item>
+        <Item>30 0.25 -30 0.25 -30 -0.25</Item>
+      </m_triangles>
+      <pos>13.8442364 227.297531</pos>
+    </Resource>
+    <Resource ID="#Resource3" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>19.4575729 189.950882</m_position>
+      <m_name>LengthX_10_wall</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>19.4575729 189.950882</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-10 -0.25 10 -0.25 10 0.25 -10 0.25</m_points>
+      <m_verts>-30 -0.25 30 -0.25 30 0.25 -30 0.25</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>3</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-30 -0.25 0</Position>
+          <TextureCoordinate>-8.759259 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>30 -0.25 0</Position>
+          <TextureCoordinate>9.759259 0.383177578</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>30 0.25 0</Position>
+          <TextureCoordinate>9.759259 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>30 0.25 0</Position>
+          <TextureCoordinate>9.759259 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-30 0.25 0</Position>
+          <TextureCoordinate>-8.759259 0.6168224</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-30 -0.25 0</Position>
+          <TextureCoordinate>-8.759259 0.383177578</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-30 -0.25 30 -0.25 30 0.25</Item>
+        <Item>30 0.25 -30 0.25 -30 -0.25</Item>
+      </m_triangles>
+      <pos>13.17757 189.030853</pos>
+    </Resource>
+    <Resource ID="#Resource4" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>62.8116074 199.726349</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>62.8116074 199.726349</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>38.23941 38.23941</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-13.1898 -9.55986 -12.8901939 -9.960159 13.1898041 9.559845 12.8901978 9.960144</m_points>
+      <m_verts>-13.1898 -9.55986 -12.8901939 -9.960159 13.1898041 9.559845 12.8901978 9.960144</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-12.8901939 -9.960159 0</Position>
+          <TextureCoordinate>-3.478455 -4.15428</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>13.1898041 9.559845 0</Position>
+          <TextureCoordinate>4.570927 4.96721745</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>12.8901978 9.960144 0</Position>
+          <TextureCoordinate>4.478456 5.154273</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>12.8901978 9.960144 0</Position>
+          <TextureCoordinate>4.478456 5.154273</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-13.1898 -9.55986 0</Position>
+          <TextureCoordinate>-3.57092571 -3.9672246</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-12.8901939 -9.960159 0</Position>
+          <TextureCoordinate>-3.478455 -4.15428</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-12.8901939 -9.960159 13.1898041 9.559845 12.8901978 9.960144</Item>
+        <Item>12.8901978 9.960144 -13.1898 -9.55986 -12.8901939 -9.960159</Item>
+      </m_triangles>
+      <pos>62.8116074 199.726349</pos>
+    </Resource>
+    <Resource ID="#Resource5" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>77.0916061 228.726349</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>77.0916061 228.726349</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>5.95793152 5.95793152</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-1.48947906 -19.2239227 -0.990516663 -19.2560883 1.48948669 19.2239075 0.9905243 19.256073</m_points>
+      <m_verts>-1.48947906 -19.2239227 -0.990516663 -19.2560883 1.48948669 19.2239075 0.9905243 19.256073</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-1.48947906 -19.2239227 0</Position>
+          <TextureCoordinate>0.0402842462 -8.483142</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.990516663 -19.2560883 0</Position>
+          <TextureCoordinate>0.194284976 -8.498173</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>1.48948669 19.2239075 0</Position>
+          <TextureCoordinate>0.9597181 9.483134</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>1.48948669 19.2239075 0</Position>
+          <TextureCoordinate>0.9597181 9.483134</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.9905243 19.256073 0</Position>
+          <TextureCoordinate>0.805717349 9.498165</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-1.48947906 -19.2239227 0</Position>
+          <TextureCoordinate>0.0402842462 -8.483142</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-1.48947906 -19.2239227 -0.990516663 -19.2560883 1.48948669 19.2239075</Item>
+        <Item>1.48948669 19.2239075 0.9905243 19.256073 -1.48947906 -19.2239227</Item>
+      </m_triangles>
+      <pos>77.0916061 228.726349</pos>
+    </Resource>
+    <Resource ID="#Resource6" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>78.33161 269.566345</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>78.33161 269.566345</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.25 -21.6000061 0.25 -21.6000061 0.25 21.6000061 -0.25 21.6000061</m_points>
+      <m_verts>-0.25 -21.6000061 0.25 -21.6000061 0.25 21.6000061 -0.25 21.6000061</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.25 -21.6000061 0</Position>
+          <TextureCoordinate>0.422839522 -9.59346</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 -21.6000061 0</Position>
+          <TextureCoordinate>0.5771605 -9.59346</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 21.6000061 0</Position>
+          <TextureCoordinate>0.5771605 10.59346</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.25 21.6000061 0</Position>
+          <TextureCoordinate>0.5771605 10.59346</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 21.6000061 0</Position>
+          <TextureCoordinate>0.422839522 10.59346</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.25 -21.6000061 0</Position>
+          <TextureCoordinate>0.422839522 -9.59346</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.25 -21.6000061 0.25 -21.6000061 0.25 21.6000061</Item>
+        <Item>0.25 21.6000061 -0.25 21.6000061 -0.25 -21.6000061</Item>
+      </m_triangles>
+      <pos>78.33161 269.566345</pos>
+    </Resource>
+    <Resource ID="#Resource7" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>50.97161 239.086334</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>50.97161 239.086334</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>3.87778473 3.87778473</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.9694481 -10.7833557 -0.470554352 -10.81662 0.9694443 10.783371 0.470550537 10.8166351</m_points>
+      <m_verts>-0.9694481 -10.7833557 -0.470554352 -10.81662 0.9694443 10.783371 0.470550537 10.8166351</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.470554352 -10.81662 0</Position>
+          <TextureCoordinate>0.354767174 -4.55449533</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.9694443 10.783371 0</Position>
+          <TextureCoordinate>0.7992112 5.53895855</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.470550537 10.8166351 0</Position>
+          <TextureCoordinate>0.645231664 5.55450249</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.470550537 10.8166351 0</Position>
+          <TextureCoordinate>0.645231664 5.55450249</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.9694481 -10.7833557 0</Position>
+          <TextureCoordinate>0.200787634 -4.5389514</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.470554352 -10.81662 0</Position>
+          <TextureCoordinate>0.354767174 -4.55449533</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.470554352 -10.81662 0.9694443 10.783371 0.470550537 10.8166351</Item>
+        <Item>0.470550537 10.8166351 -0.9694481 -10.7833557 -0.470554352 -10.81662</Item>
+      </m_triangles>
+      <pos>50.97161 239.086334</pos>
+    </Resource>
+    <Resource ID="#Resource8" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0.7</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>52.41161 270.486328</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>52.41161 270.486328</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>3.87939453 3.87939453</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-0.969848633 -20.5912628 -0.4701538 -20.6087189 0.969848633 20.5912781 0.4701538 20.6087341</m_points>
+      <m_verts>-0.969848633 -20.5912628 -0.4701538 -20.6087189 0.969848633 20.5912781 0.4701538 20.6087341</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>1</m_scale_x>
+      <m_scale_y>1</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-0.969848633 -20.5912628 0</Position>
+          <TextureCoordinate>0.200664014 -9.122086</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.4701538 -20.6087189 0</Position>
+          <TextureCoordinate>0.3548908 -9.130242</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.969848633 20.5912781 0</Position>
+          <TextureCoordinate>0.799335957 10.1220932</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.969848633 20.5912781 0</Position>
+          <TextureCoordinate>0.799335957 10.1220932</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>0.4701538 20.6087341 0</Position>
+          <TextureCoordinate>0.6451092 10.13025</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-0.969848633 -20.5912628 0</Position>
+          <TextureCoordinate>0.200664014 -9.122086</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-0.969848633 -20.5912628 -0.4701538 -20.6087189 0.969848633 20.5912781</Item>
+        <Item>0.969848633 20.5912781 0.4701538 20.6087341 -0.969848633 -20.5912628</Item>
+      </m_triangles>
+      <pos>52.41161 270.486328</pos>
+    </Resource>
+  </Resources>
+</XnaContent>

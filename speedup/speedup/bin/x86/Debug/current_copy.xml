@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.PolygonObject">
+    <m_density>1</m_density>
+    <m_mass>0</m_mass>
+    <m_friction>0</m_friction>
+    <m_restitution>0.7</m_restitution>
+    <m_rotation>0</m_rotation>
+    <m_damping>0</m_damping>
+    <m_radius>0</m_radius>
+    <m_linear_velocity>0 0</m_linear_velocity>
+    <m_angular_velocity>0</m_angular_velocity>
+    <m_position>16.2918339 -1.83181524</m_position>
+    <m_name>PolygonObject</m_name>
+    <m_is_dead>false</m_is_dead>
+    <m_is_added>true</m_is_added>
+    <m_buffered_position>16.2918339 -1.83181524</m_buffered_position>
+    <m_buffered_angle>0</m_buffered_angle>
+    <m_is_throwable>false</m_is_throwable>
+    <m_is_destructible>false</m_is_destructible>
+    <m_destroy_threshold>0</m_destroy_threshold>
+    <m_last_destroy_frame>false</m_last_destroy_frame>
+    <m_texture_name>Art/speedup-Space</m_texture_name>
+    <m_texture_name_helper>Art/speedup-Space</m_texture_name_helper>
+    <m_disabled>false</m_disabled>
+    <m_width_height>40.53333 40.53333</m_width_height>
+    <m_tint>FFFFFAF0</m_tint>
+    <m_points>-10.1333313 -28.3 10.1333332 -28.4333324 10.1333332 28.2333317 -10.1333313 28.5</m_points>
+    <m_verts>-10.1333313 -28.3 10.1333332 -28.4333324 10.1333332 28.2333317 -10.1333313 28.5</m_verts>
+    <m_animation_frame>0</m_animation_frame>
+    <m_active>false</m_active>
+    <m_scale_x>1</m_scale_x>
+    <m_scale_y>1</m_scale_y>
+    <m_offset>0 0</m_offset>
+    <m_vertices>
+      <Item>
+        <Position>-10.1333313 -28.3 0</Position>
+        <TextureCoordinate>-5.06776428 -15.9534893</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>10.1333332 -28.4333324 0</Position>
+        <TextureCoordinate>6.067765 -16.0310078</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>10.1333332 28.2333317 0</Position>
+        <TextureCoordinate>6.067765 16.9147282</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>10.1333332 28.2333317 0</Position>
+        <TextureCoordinate>6.067765 16.9147282</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-10.1333313 28.5 0</Position>
+        <TextureCoordinate>-5.06776428 17.069767</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-10.1333313 -28.3 0</Position>
+        <TextureCoordinate>-5.06776428 -15.9534893</TextureCoordinate>
+      </Item>
+    </m_vertices>
+    <m_triangles>
+      <Item>-10.1333313 -28.3 10.1333332 -28.4333324 10.1333332 28.2333317</Item>
+      <Item>10.1333332 28.2333317 -10.1333313 28.5 -10.1333313 -28.3</Item>
+    </m_triangles>
+    <pos>16.2918339 -1.83181524</pos>
+  </Asset>
+</XnaContent>

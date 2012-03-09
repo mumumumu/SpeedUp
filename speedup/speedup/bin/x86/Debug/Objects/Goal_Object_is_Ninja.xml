@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.TriggerableObject">
+    <m_density>1</m_density>
+    <m_mass>0</m_mass>
+    <m_friction>0</m_friction>
+    <m_restitution>0.7</m_restitution>
+    <m_rotation>0</m_rotation>
+    <m_damping>0</m_damping>
+    <m_radius>3.144951</m_radius>
+    <m_linear_velocity>0 0</m_linear_velocity>
+    <m_angular_velocity>0</m_angular_velocity>
+    <m_position>3.62712145 142.307709</m_position>
+    <m_name>Goal_Object_is_Ninja</m_name>
+    <m_is_dead>false</m_is_dead>
+    <m_is_added>true</m_is_added>
+    <m_buffered_position>3.62712145 142.307709</m_buffered_position>
+    <m_buffered_angle>0</m_buffered_angle>
+    <m_is_throwable>false</m_is_throwable>
+    <m_is_destructible>false</m_is_destructible>
+    <m_destroy_threshold>0</m_destroy_threshold>
+    <m_last_destroy_frame>false</m_last_destroy_frame>
+    <m_texture_name>Art/speedup-NinjaSmall</m_texture_name>
+    <m_texture_name_helper>Art/speedup-NinjaSmall</m_texture_name_helper>
+    <m_disabled>false</m_disabled>
+    <m_width_height>0 0</m_width_height>
+    <m_tint>FFFFFAF0</m_tint>
+    <m_is_active>false</m_is_active>
+    <m_type>GOAL</m_type>
+    <m_textbox_width>0</m_textbox_width>
+    <m_follow_me>false</m_follow_me>
+    <m_set_zoom>0</m_set_zoom>
+    <m_zoom_mult>0</m_zoom_mult>
+    <m_timer_checkpoint_set>120</m_timer_checkpoint_set>
+    <m_length>6.59999943</m_length>
+    <m_invisible>true</m_invisible>
+    <m_scale>0.389150918 0.389150918</m_scale>
+    <m_width>0.5</m_width>
+    <_length>6.59999943</_length>
+  </Asset>
+</XnaContent>

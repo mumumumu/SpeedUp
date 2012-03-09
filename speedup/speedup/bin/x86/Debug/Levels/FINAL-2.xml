@@ -1,0 +1,2543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.SharedResourceLinkedList[speedup.GameObject]">
+    <Object>#Resource1</Object>
+    <Object>#Resource2</Object>
+    <Object>#Resource3</Object>
+    <Object>#Resource4</Object>
+    <Object>#Resource5</Object>
+    <Object>#Resource6</Object>
+    <Object>#Resource7</Object>
+    <Object>#Resource8</Object>
+    <Object>#Resource9</Object>
+    <Object>#Resource10</Object>
+    <Object>#Resource11</Object>
+    <Object>#Resource12</Object>
+    <Object>#Resource13</Object>
+    <Object>#Resource14</Object>
+    <Object>#Resource15</Object>
+    <Object>#Resource16</Object>
+    <Object>#Resource17</Object>
+    <Object>#Resource18</Object>
+    <Object>#Resource19</Object>
+    <Object>#Resource20</Object>
+    <Object>#Resource21</Object>
+    <Object>#Resource22</Object>
+    <Object>#Resource23</Object>
+    <Object>#Resource24</Object>
+    <Object>#Resource25</Object>
+    <Object>#Resource26</Object>
+    <Object>#Resource27</Object>
+    <Object>#Resource28</Object>
+    <Object>#Resource29</Object>
+    <Object>#Resource30</Object>
+    <Object>#Resource31</Object>
+    <Object>#Resource32</Object>
+    <Object>#Resource33</Object>
+    <Object>#Resource34</Object>
+    <Object>#Resource35</Object>
+    <Object>#Resource36</Object>
+    <Object>#Resource37</Object>
+    <Object>#Resource38</Object>
+    <Object>#Resource39</Object>
+    <Object>#Resource40</Object>
+    <Object>#Resource41</Object>
+    <Object>#Resource42</Object>
+    <Object>#Resource43</Object>
+    <Object>#Resource44</Object>
+    <Object>#Resource45</Object>
+    <Object>#Resource46</Object>
+    <Object>#Resource47</Object>
+    <Object>#Resource48</Object>
+    <Object>#Resource49</Object>
+    <Object>#Resource50</Object>
+    <Object>#Resource51</Object>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="speedup.Ninja">
+      <m_density>0.36</m_density>
+      <m_mass>0.203575224</m_mass>
+      <m_friction>0.6</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>-3.14130044</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0.5</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-12.2698736 130.934372</m_position>
+      <m_name>Ninja_standard</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-12.2698736 130.934372</m_buffered_position>
+      <m_buffered_angle>-3.14130044</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-NinjaAnimated</m_texture_name>
+      <m_texture_name_helper>Art/speedup-NinjaAnimated</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>0 0</m_width_height>
+      <m_tint>FFFFFFFF</m_tint>
+      <m_throw_power>1.5</m_throw_power>
+      <m_movement_accel>10</m_movement_accel>
+      <m_maxspeed>150</m_maxspeed>
+      <m_max_throwable_capacity>2</m_max_throwable_capacity>
+      <m_boost_amt>50</m_boost_amt>
+      <m_cruise>false</m_cruise>
+      <m_cruise_cooldown>255</m_cruise_cooldown>
+      <m_speed>0</m_speed>
+      <m_picking_up>false</m_picking_up>
+      <m_is_moving>false</m_is_moving>
+      <m_facing_angle>-1.5707963267948966</m_facing_angle>
+      <Facing_Vector>0.0002923185 -1</Facing_Vector>
+      <throwable_objects />
+      <m_has_item>false</m_has_item>
+    </Resource>
+    <Resource ID="#Resource2" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>1.57</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-1.04787052 8.634178</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-1.04787052 8.634178</m_buffered_position>
+      <m_buffered_angle>1.57</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-6.27281666 0.25 -6.27281666 -0.25 6.2728157 -0.25 6.2728157 0.25</m_points>
+      <m_verts>-125.456329 0.5 -125.456329 -0.5 125.456314 -0.5 125.456314 0.5</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>20</m_scale_x>
+      <m_scale_y>2</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-125.456329 0.5 0</Position>
+          <TextureCoordinate>-38.22109 0.733644843</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-125.456329 -0.5 0</Position>
+          <TextureCoordinate>-38.22109 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>125.456314 -0.5 0</Position>
+          <TextureCoordinate>39.2210846 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>125.456314 -0.5 0</Position>
+          <TextureCoordinate>39.2210846 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>125.456314 0.5 0</Position>
+          <TextureCoordinate>39.2210846 0.733644843</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-125.456329 0.5 0</Position>
+          <TextureCoordinate>-38.22109 0.733644843</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-125.456329 0.5 -125.456329 -0.5 125.456314 -0.5</Item>
+        <Item>125.456314 -0.5 125.456314 0.5 -125.456329 0.5</Item>
+      </m_triangles>
+      <pos>-1.04787052 8.634178</pos>
+    </Resource>
+    <Resource ID="#Resource3" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-12.9662237 134.456421</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-12.9662237 134.456421</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-6.27281666 0.25 -6.27281666 -0.25 6.2728157 -0.25 6.2728157 0.25</m_points>
+      <m_verts>-12.5456333 0.5 -12.5456333 -0.5 12.5456314 -0.5 12.5456314 0.5</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>2</m_scale_x>
+      <m_scale_y>2</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-12.5456333 0.5 0</Position>
+          <TextureCoordinate>-3.37210917 0.733644843</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-12.5456333 -0.5 0</Position>
+          <TextureCoordinate>-3.37210917 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>12.5456314 -0.5 0</Position>
+          <TextureCoordinate>4.37210846 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>12.5456314 -0.5 0</Position>
+          <TextureCoordinate>4.37210846 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>12.5456314 0.5 0</Position>
+          <TextureCoordinate>4.37210846 0.733644843</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-12.5456333 0.5 0</Position>
+          <TextureCoordinate>-3.37210917 0.733644843</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-12.5456333 0.5 -12.5456333 -0.5 12.5456314 -0.5</Item>
+        <Item>12.5456314 -0.5 12.5456314 0.5 -12.5456333 0.5</Item>
+      </m_triangles>
+      <pos>-12.9662237 134.456421</pos>
+    </Resource>
+    <Resource ID="#Resource4" Type="speedup.PolygonObject">
+      <m_density>1</m_density>
+      <m_mass>0</m_mass>
+      <m_friction>0</m_friction>
+      <m_restitution>0</m_restitution>
+      <m_rotation>1.57</m_rotation>
+      <m_damping>0</m_damping>
+      <m_radius>0</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-25.1459484 8.581894</m_position>
+      <m_name>PolygonObject</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-25.1459484 8.581894</m_buffered_position>
+      <m_buffered_angle>1.57</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>false</m_is_destructible>
+      <m_destroy_threshold>0</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-Wall</m_texture_name>
+      <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>1 1</m_width_height>
+      <m_tint>FFFFFAF0</m_tint>
+      <m_points>-6.27281666 0.25 -6.27281666 -0.25 6.2728157 -0.25 6.2728157 0.25</m_points>
+      <m_verts>-125.456329 0.5 -125.456329 -0.5 125.456314 -0.5 125.456314 0.5</m_verts>
+      <m_animation_frame>0</m_animation_frame>
+      <m_active>false</m_active>
+      <m_scale_x>20</m_scale_x>
+      <m_scale_y>2</m_scale_y>
+      <m_vertices>
+        <Item>
+          <Position>-125.456329 0.5 0</Position>
+          <TextureCoordinate>-38.22109 0.733644843</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-125.456329 -0.5 0</Position>
+          <TextureCoordinate>-38.22109 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>125.456314 -0.5 0</Position>
+          <TextureCoordinate>39.2210846 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>125.456314 -0.5 0</Position>
+          <TextureCoordinate>39.2210846 0.266355157</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>125.456314 0.5 0</Position>
+          <TextureCoordinate>39.2210846 0.733644843</TextureCoordinate>
+        </Item>
+        <Item>
+          <Position>-125.456329 0.5 0</Position>
+          <TextureCoordinate>-38.22109 0.733644843</TextureCoordinate>
+        </Item>
+      </m_vertices>
+      <m_triangles>
+        <Item>-125.456329 0.5 -125.456329 -0.5 125.456314 -0.5</Item>
+        <Item>125.456314 -0.5 125.456314 0.5 -125.456329 0.5</Item>
+      </m_triangles>
+      <pos>-25.1459484 8.581894</pos>
+    </Resource>
+    <Resource ID="#Resource5" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>1.404971E-39</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-21.6342945 35.1740265</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-21.6342945 35.1740265</m_buffered_position>
+      <m_buffered_angle>1.404971E-39</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource6" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-16.5776272 35.3182945</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-16.5776272 35.3182945</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource7" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-13.5764608 35.4315453</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-13.5764608 35.4315453</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource8" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>0</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.4620428 35.3182945</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.4620428 35.3182945</m_buffered_position>
+      <m_buffered_angle>0</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource9" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>-2.07026958</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-5.025969 41.447834</m_position>
+      <m_name>Alien</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-5.025969 41.447834</m_buffered_position>
+      <m_buffered_angle>-2.07026958</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource10" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-18.6787338 29.2251778</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-18.6787338 29.2251778</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource11" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-13.36843 28.1959114</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-13.36843 28.1959114</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource12" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-9.12869 28.8692741</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-9.12869 28.8692741</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource13" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-19.2125874 24.4204979</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-19.2125874 24.4204979</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource14" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-15.0010777 24.95435</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-15.0010777 24.95435</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource15" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-8.891421 25.0729828</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-8.891421 25.0729828</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource16" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-12.0740633 22.6707878</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-12.0740633 22.6707878</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource17" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-19.0346375 19.73445</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-19.0346375 19.73445</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource18" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-6.10352 21.5139618</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-6.10352 21.5139618</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource19" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-5.6289835 26.7338619</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-5.6289835 26.7338619</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource20" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-13.3844481 31.0448475</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-13.3844481 31.0448475</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource21" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-11.0136728 32.11244</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-11.0136728 32.11244</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource22" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-16.8399048 31.657177</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-16.8399048 31.657177</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource23" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-6.5187397 32.36898</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-6.5187397 32.36898</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource24" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-6.45942259 35.5721</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-6.45942259 35.5721</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource25" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-18.9788666 38.7724876</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-18.9788666 38.7724876</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource26" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-16.00592 38.8372765</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-16.00592 38.8372765</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource27" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.73025 41.4444923</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.73025 41.4444923</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource28" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-21.2886829 16.2940617</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-21.2886829 16.2940617</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource29" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-21.2886829 16.2940617</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-21.2886829 16.2940617</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource30" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-15.4756136 15.9974756</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-15.4756136 15.9974756</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource31" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-13.8352146 20.2978172</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-13.8352146 20.2978172</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource32" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-3.57846761 18.2802258</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-3.57846761 18.2802258</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource33" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.0777626 19.8530846</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.0777626 19.8530846</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource34" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-11.9855623 16.229681</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-11.9855623 16.229681</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource35" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-9.381894 14.8790359</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-9.381894 14.8790359</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource36" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-6.516218 17.9508419</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-6.516218 17.9508419</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource37" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-4.44264269 12.853672</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-4.44264269 12.853672</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource38" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-10.5036478 11.3426151</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-10.5036478 11.3426151</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource39" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-15.8315153 12.4977694</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-15.8315153 12.4977694</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource40" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-20.8141479 12.3791351</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-20.8141479 12.3791351</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource41" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-13.6367855 9.413282</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-13.6367855 9.413282</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource42" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-18.9753189 9.176015</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-18.9753189 9.176015</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource43" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-9.72186 8.108308</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-9.72186 8.108308</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource44" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-6.63737345 9.472601</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-6.63737345 9.472601</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource45" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-17.9076138 6.0322113</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-17.9076138 6.0322113</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource46" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-15.4666653 4.58457851</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-15.4666653 4.58457851</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource47" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-12.6373425 5.225797</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-12.6373425 5.225797</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource48" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-6.5187397 4.430651</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-6.5187397 4.430651</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource49" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-9.425275 2.23592019</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-9.425275 2.23592019</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource50" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-20.2209778 2.057969</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-20.2209778 2.057969</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+    <Resource ID="#Resource51" Type="speedup.Alien">
+      <m_density>0.02</m_density>
+      <m_mass>1</m_mass>
+      <m_friction>0.9</m_friction>
+      <m_restitution>1</m_restitution>
+      <m_rotation>2.64774834E-11</m_rotation>
+      <m_damping>3</m_damping>
+      <m_radius>1.4849242</m_radius>
+      <m_linear_velocity>0 0</m_linear_velocity>
+      <m_angular_velocity>0</m_angular_velocity>
+      <m_position>-14.94176 1.16821337</m_position>
+      <m_name>small_chaser</m_name>
+      <m_is_dead>false</m_is_dead>
+      <m_is_added>true</m_is_added>
+      <m_buffered_position>-14.94176 1.16821337</m_buffered_position>
+      <m_buffered_angle>2.64774834E-11</m_buffered_angle>
+      <m_is_throwable>false</m_is_throwable>
+      <m_is_destructible>true</m_is_destructible>
+      <m_destroy_threshold>30</m_destroy_threshold>
+      <m_last_destroy_frame>false</m_last_destroy_frame>
+      <m_texture_name>Art/speedup-AlienEasy</m_texture_name>
+      <m_texture_name_helper>Art/speedup-AlienEasy</m_texture_name_helper>
+      <m_disabled>false</m_disabled>
+      <m_width_height>2.96984839 2.96984839</m_width_height>
+      <m_tint>FF4C4C4C</m_tint>
+      <m_attack_speed>1</m_attack_speed>
+      <m_attack_power>10</m_attack_power>
+      <m_laser_slowdown>0.8</m_laser_slowdown>
+      <m_move_step>0.08</m_move_step>
+      <m_range>40</m_range>
+      <m_chase_dist>100</m_chase_dist>
+      <m_attack_dist>20</m_attack_dist>
+      <m_attack_cooldown>0</m_attack_cooldown>
+      <m_size>1.4849242</m_size>
+      <m_width>2.96984839</m_width>
+      <m_height>2.96984839</m_height>
+      <m_size_scale>0.707106769</m_size_scale>
+      <m_ai_state>SPAWNING</m_ai_state>
+      <m_type>EASY</m_type>
+      <m_kill_under_speed>0</m_kill_under_speed>
+      <m_change_size>0.707106769</m_change_size>
+      <m_collision_type>NORMAL</m_collision_type>
+      <m_attack_rate>50</m_attack_rate>
+      <m_death_anim_frames>8</m_death_anim_frames>
+      <m_attack_anim_frames>4</m_attack_anim_frames>
+      <m_ai_type>CHASER</m_ai_type>
+      <m_alien_color>FFFFFFFF</m_alien_color>
+    </Resource>
+  </Resources>
+</XnaContent>

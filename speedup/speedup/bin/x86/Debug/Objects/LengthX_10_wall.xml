@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="speedup.PolygonObject">
+    <m_density>1</m_density>
+    <m_mass>0</m_mass>
+    <m_friction>0</m_friction>
+    <m_restitution>0.7</m_restitution>
+    <m_rotation>0</m_rotation>
+    <m_damping>0</m_damping>
+    <m_radius>0</m_radius>
+    <m_linear_velocity>0 0</m_linear_velocity>
+    <m_angular_velocity>0</m_angular_velocity>
+    <m_position>-25.8890972 183.964188</m_position>
+    <m_name>LengthX_10_wall</m_name>
+    <m_is_dead>false</m_is_dead>
+    <m_is_added>true</m_is_added>
+    <m_buffered_position>-25.8890972 183.964188</m_buffered_position>
+    <m_buffered_angle>0</m_buffered_angle>
+    <m_is_throwable>false</m_is_throwable>
+    <m_is_destructible>false</m_is_destructible>
+    <m_destroy_threshold>0</m_destroy_threshold>
+    <m_last_destroy_frame>false</m_last_destroy_frame>
+    <m_texture_name>Art/speedup-Wall</m_texture_name>
+    <m_texture_name_helper>Art/speedup-Wall</m_texture_name_helper>
+    <m_disabled>false</m_disabled>
+    <m_width_height>1 1</m_width_height>
+    <m_tint>FFFFFAF0</m_tint>
+    <m_points>-10 -0.25 10 -0.25 10 0.25 -10 0.25</m_points>
+    <m_verts>-10 -0.25 10 -0.25 10 0.25 -10 0.25</m_verts>
+    <m_animation_frame>0</m_animation_frame>
+    <m_active>false</m_active>
+    <m_scale_x>1</m_scale_x>
+    <m_scale_y>1</m_scale_y>
+    <m_vertices>
+      <Item>
+        <Position>-10 -0.25 0</Position>
+        <TextureCoordinate>-2.58641982 0.383177578</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>10 -0.25 0</Position>
+        <TextureCoordinate>3.58641982 0.383177578</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>10 0.25 0</Position>
+        <TextureCoordinate>3.58641982 0.6168224</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>10 0.25 0</Position>
+        <TextureCoordinate>3.58641982 0.6168224</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-10 0.25 0</Position>
+        <TextureCoordinate>-2.58641982 0.6168224</TextureCoordinate>
+      </Item>
+      <Item>
+        <Position>-10 -0.25 0</Position>
+        <TextureCoordinate>-2.58641982 0.383177578</TextureCoordinate>
+      </Item>
+    </m_vertices>
+    <m_triangles>
+      <Item>-10 -0.25 10 -0.25 10 0.25</Item>
+      <Item>10 0.25 -10 0.25 -10 -0.25</Item>
+    </m_triangles>
+    <pos>-25.8890972 183.964188</pos>
+  </Asset>
+</XnaContent>
